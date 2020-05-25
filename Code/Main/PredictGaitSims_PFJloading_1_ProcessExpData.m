@@ -94,6 +94,139 @@ function PredictGaitSims_PFJloading_1_ProcessExpData
     scaledModelMuscle = scaleOptimalForceSubjectSpecific(genModel,scaledModel,1.700,1.759);
     scaledModelMuscle.print('MocoScaledModel_StrengthScaled.osim');
     
+    %%
+    
+    %% Run a muscle drive state tracking simulation
+    
+    %Construct the MocoTrack tool.
+    track = MocoTrack();
+    track.setName("muscle_driven_state_tracking");
+
+    %Construct a ModelProcessor and set it on the tool. The default
+    %muscles in the model are replaced with optimization-friendly
+    %DeGrooteFregly2016Muscles, and adjustments are made to the default muscle
+    %parameters.
+    modelProcessor = ModelProcessor([pwd,'\MocoScaledModel_StrengthScaled.osim']);
+    cd('..\Gait');
+    modelProcessor.append(ModOpAddExternalLoads([pwd,'\Jog05_grf.xml']));
+    modelProcessor.append(ModOpIgnoreTendonCompliance());
+    modelProcessor.append(ModOpReplaceMusclesWithDeGrooteFregly2016());
+    %Only valid for DeGrooteFregly2016Muscles.
+    modelProcessor.append(ModOpIgnorePassiveFiberForcesDGF());
+    %Only valid for DeGrooteFregly2016Muscles.
+    modelProcessor.append(ModOpScaleActiveFiberForceCurveWidthDGF(1.5));
+    %Set model processor
+    track.setModel(modelProcessor);
+
+    %Construct a TableProcessor of the coordinate data and pass it to the
+    %track tool.
+    
+    %Before setting the table, the RRA kinematic file needs to be converted
+    %to a states file that only has the joint kinematic values. This can be
+    %done using a convenience function included with this repo.
+    convertRRAtoStates('Jog05_rraKinematics.sto',rraModel,'coordinates.sto');    
+   
+    %Set the kinematics using the table processor
+    track.setStatesReference(TableProcessor([pwd,'\coordinates.sto']));
+    
+    % This setting allows extra data columns contained in the states
+    % reference that don't correspond to model coordinates.
+    track.set_allow_unused_references(true);
+
+    %Initial time, final time, and mesh interval.
+    %Initial and final time set based on coordinates data file
+    %Mesh inverval arbitralily set at the moment - 0.05 is the upper end
+    %value recommended in Moco documentation for gait simulations (maybe
+    %not running though?)
+    %%%% TO DO: could set this with better process\
+        %%%%% NOTE: The Falisse et al. study uses 50 mesh intervals for a
+        %%%%% half gait cycle, so this would be 100 for the full cycle in
+        %%%%% this instance...
+    track.set_initial_time(Storage('coordinates.sto').getFirstTime());
+    track.set_final_time(Storage('coordinates.sto').getLastTime());
+    track.set_mesh_interval(0.05);
+    
+    % Instead of calling solve(), call initialize() to receive a pre-configured
+    % MocoStudy object based on the settings above. Use this to customize the
+    % problem beyond the MocoTrack interface.
+    study = track.initialize();
+
+    % Get a reference to the MocoControlGoal that is added to every MocoTrack
+    % problem by default.
+    problem = study.updProblem();
+    effort = MocoControlGoal.safeDownCast(problem.updGoal('control_effort'));
+
+    % Put a large weight on the pelvis CoordinateActuators, which act as the
+    % residual, or 'hand-of-god', forces which we would like to keep as small
+    % as possible.
+    model = modelProcessor.process();
+    model.initSystem();
+    forceSet = model.getForceSet();
+    for i = 0:forceSet.getSize()-1
+       forcePath = forceSet.get(i).getAbsolutePathString();
+       if contains(string(forcePath), 'pelvis')
+           effort.setWeightForControl(forcePath, 10);
+       end
+    end
+    
+    %Set state weights within problem
+    %Generic weights of 10 for everything right now
+    statesWeights = MocoWeightSet();
+    %Get state variable names
+    stateVars = model.getStateVariableNames();
+    %Convert to string array while only taking jointset states
+    r = 1;
+    for ss = 0:stateVars.getSize()-1
+        currState = char(stateVars.get(ss));
+        if contains(currState,'/jointset')
+            jointStates{r,1} = currState;
+            r = r + 1;
+        end
+    end
+    clear ss
+    %Append each state weight to goal
+    for ss = 1:length(jointStates)
+        statesWeights.cloneAndAppend(MocoWeight(jointStates{ss,1},10));        
+    end
+    clear ss
+    %Set states goal in study
+    statesGoal = MocoStateTrackingGoal.safeDownCast(problem.updGoal('state_tracking'));
+    statesGoal.setWeightSet(statesWeights);
+    statesGoal.setWeight(10);
+
+    %%%%%%% could adjust solution tolerance???
+
+    %Solve the problem and write the solution to a Storage file.
+    
+    %Navigate to directory to store results
+    cd('..\..'); mkdir('SimulationResults'); cd('SimulationResults');
+    
+    % Solve and visualize.
+    muscleStateTrackingSolution = study.solve();
+% % %     study.visualize(solution);
+    
+% % %     %Cleanup default solution file
+% % %     delete MocoStudy_solution.sto
+% % %     
+    
+    %% Re-run the above solver to get a 101 node solution
+    
+    solver = study.initCasADiSolver();
+    
+    %Update the mesh intervals
+    solver.set_num_mesh_intervals(50);
+    
+    %Update the initial guess to use the original solution
+    solver.setGuess(muscleStateTrackingSolution);
+    
+    %Re-run solver
+    study.setName("muscle_driven_state_tracking_dense");
+    muscleStateTrackingSolutionDense = study.solve();
+    
+    
+    
+    %%
+    
     %% Optimise foot contact parameters using measured kinematics
     
     %Create new iteration of model
@@ -101,14 +234,13 @@ function PredictGaitSims_PFJloading_1_ProcessExpData
     
     %Add spheres using convenience function. This function also removes the
     %pelvis actuators from this model iteration.
-    addSpheresToModel(contactModel,'MocoScaledModel_BaselineContact.osim');
+    addSpheresToModel(contactModel,'MocoScaledModel_BaselineContact.osim','reduce');
     
-    %% Test a states and GRF tracking simulation (torque driven)
+    %%%% if the pelvis actuators get removed they conflict later when
+    %%%% updating the problem (i.e. pelvis actuators are in the problem but
+    %%%% not the trajectory - should try and fix this)
     
-    %%%%%%% NOTE: torque driven may not be the best here, as the leg
-    %%%%%%% 'muscles' can produce stupid amounts of force causing the model
-    %%%%%%% to fly...
-    
+    %% Test a states and GRF tracking simulation (muscle driven)
     
     %Initialise tracking object
     track = MocoTrack();
@@ -116,40 +248,48 @@ function PredictGaitSims_PFJloading_1_ProcessExpData
     
     %Setup a model to use in the tracking simulation
     trackModel = Model('MocoScaledModel_BaselineContact.osim');
-    %Remove the force set from this model to make it a torque problem
-    trackModel.updForceSet().clearAndDestroy();
-    %Add low level pelvis actuators to use in the problem
-    %Set general parameters
-    cAct = CoordinateActuator();
-    cAct.setMinControl(-1); cAct.setMaxControl(1); cAct.setOptimalForce(1);
-    %Add variants to model
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tilt'));
-    cAct.setName('pelvis_tilt_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_list'));
-    cAct.setName('pelvis_list_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_rotation'));
-    cAct.setName('pelvis_rotation_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tx'));
-    cAct.setName('pelvis_tx_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_ty'));
-    cAct.setName('pelvis_ty_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tz'));
-    cAct.setName('pelvis_tz_reserve');
-    trackModel.updForceSet().cloneAndAppend(cAct);
-    %Finalise model connections
-    trackModel.finalizeConnections();
+% % %     %Remove the force set from this model to make it a torque problem
+% % %     trackModel.updForceSet().clearAndDestroy();
+% % %     %Add low level pelvis actuators to use in the problem
+% % %     %Set general parameters
+% % %     cAct = CoordinateActuator();
+% % %     cAct.setMinControl(-1); cAct.setMaxControl(1); cAct.setOptimalForce(1);
+% % %     %Add variants to model
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tilt'));
+% % %     cAct.setName('pelvis_tilt_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_list'));
+% % %     cAct.setName('pelvis_list_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_rotation'));
+% % %     cAct.setName('pelvis_rotation_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tx'));
+% % %     cAct.setName('pelvis_tx_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_ty'));
+% % %     cAct.setName('pelvis_ty_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     cAct.setCoordinate(trackModel.getCoordinateSet().get('pelvis_tz'));
+% % %     cAct.setName('pelvis_tz_reserve');
+% % %     trackModel.updForceSet().cloneAndAppend(cAct);
+% % %     %Finalise model connections
+% % %     trackModel.finalizeConnections();
     
     % Construct a ModelProcessor and set it on the tool.
     modelProcessor = ModelProcessor(trackModel);
-    % Add CoordinateActuators to the model degrees-of-freedom. This
-    % ignores the pelvis coordinates which already have residual 
-    % CoordinateActuators.
-    modelProcessor.append(ModOpAddReserves(500));
+% % %     % Add CoordinateActuators to the model degrees-of-freedom. This
+% % %     % ignores the pelvis coordinates which already have residual 
+% % %     % CoordinateActuators.
+% % %     modelProcessor.append(ModOpAddReserves(500));
+    %Set tendon compliance to be ignored
+    modelProcessor.append(ModOpIgnoreTendonCompliance());
+    %replace muscles in model with DegrooteFregly type
+    modelProcessor.append(ModOpReplaceMusclesWithDeGrooteFregly2016());
+    %ignore passive forces
+    modelProcessor.append(ModOpIgnorePassiveFiberForcesDGF());
+    %change active force width scale
+    modelProcessor.append(ModOpScaleActiveFiberForceCurveWidthDGF(1.5));
     %Set model processor
     track.setModel(modelProcessor);
     
@@ -158,12 +298,10 @@ function PredictGaitSims_PFJloading_1_ProcessExpData
     track.setStatesReference(TableProcessor([pwd,'\coordinates.sto']));
     track.set_initial_time(Storage('coordinates.sto').getFirstTime());
     track.set_final_time(Storage('coordinates.sto').getLastTime());
-% % %     track.set_final_time(1.573);
-    track.set_mesh_interval(0.01);
+    track.set_mesh_interval(0.02);
     track.set_allow_unused_references(true);
     track.set_track_reference_position_derivatives(true);
-    
-    
+        
     %Initialise study object
     study = track.initialize();
     problem = study.updProblem();
@@ -197,15 +335,20 @@ function PredictGaitSims_PFJloading_1_ProcessExpData
     %Put a large weight on the pelvis CoordinateActuators, which act as the
     %residual, or 'hand-of-god', forces which we would like to keep as small
     %as possible.
-    %%%% TO DO: fix the naming of these above so they aren't so lame...
     effort = MocoControlGoal.safeDownCast(problem.updGoal("control_effort"));
 % % %     effort.setWeight(10);
-    effort.setWeightForControl('/forceset/pelvis_tilt_reserve', 10);
-    effort.setWeightForControl('/forceset/pelvis_list_reserve', 10);
-    effort.setWeightForControl('/forceset/pelvis_rotation_reserve', 10);
-    effort.setWeightForControl('/forceset/pelvis_tx_reserve', 10);
-    effort.setWeightForControl('/forceset/pelvis_ty_reserve', 10);
-    effort.setWeightForControl('/forceset/pelvis_tz_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_tilt_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_list_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_rotation_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_tx_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_ty_reserve', 10);
+% % %     effort.setWeightForControl('/forceset/pelvis_tz_reserve', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_tilt', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_list', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_rotation', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_tx', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_ty', 10);
+    effort.setWeightForControl('/forceset/tau_pelvis_tz', 10);
     
     %Add a contact tracking goal
     % Track the right and left vertical and fore-aft ground reaction forces.

@@ -1,4 +1,4 @@
-function addSpheresToModel(contactModel,outputModelName)
+function addSpheresToModel(contactModel,outputModelName,pelvisActuatorTreatment)
 
     %Inputs
     %
@@ -8,6 +8,11 @@ function addSpheresToModel(contactModel,outputModelName)
     %
     % outputModelName   optional filename to include for the output (will
     %                   default to contactModel.osim)
+    %
+    % pelvisActuatorTreatment    what to do with the pevlsi actuators in
+    %                            the model. Can be 'remove', 'reduce' or
+    %                            'cancel' - see below code for what each of
+    %                            these does.
     
     import org.opensim.modeling.*
     
@@ -214,53 +219,62 @@ function addSpheresToModel(contactModel,outputModelName)
     contactModel.addComponent(Component.safeDownCast(contactMetFiveProx_l));
     contactModel.addComponent(Component.safeDownCast(contactMetFiveDist_l));
     
-% % %     %Remove pelvis actuators from model due to contact supporting this now
-% % %     
-% % %     %Clone original force set
-% % %     clonedForceSet = contactModel.updForceSet().clone();
-% % %     
-% % %     %Remove forces from the cloned set
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tilt'));
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_list'));
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_rotation'));
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tx'));
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_ty'));
-% % %     clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tz'));
-% % %     
-% % %     %Clear force set from original model
-% % %     contactModel.getForceSet().clearAndDestroy();
-% % %     
-% % %     %Clone and append the updated force set
-% % %     for ii = 0:clonedForceSet.getSize()-1
-% % %         contactModel.updForceSet().cloneAndAppend(clonedForceSet.get(ii));
-% % %     end
-% % %     clear ii
-
-    %Instead of removing pelvis actuators, set optimal force to a really
-    %low value. Combined with a high tracking weight on the controller,
-    %this should minimise their use. It seems they may still be needed in
-    %the problem to avoid conflicts with the model trajectory and problem.
-    %If they are removed then a reserve actuator gets added to the
-    %coordinate, which is also undesirable.
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tilt'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_list'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_rotation'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tx'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_ty'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
-    actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tz'));
-    actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+    %Remove pelvis actuators from model due to contact supporting this now
     
-% % %     contactModel.updForceSet().get('tau_pelvis_tilt').set_appliesForce(false);
-% % %     contactModel.updForceSet().get('tau_pelvis_list').set_appliesForce(false);
-% % %     contactModel.updForceSet().get('tau_pelvis_rotation').set_appliesForce(false);
-% % %     contactModel.updForceSet().get('tau_pelvis_tx').set_appliesForce(false);
-% % %     contactModel.updForceSet().get('tau_pelvis_ty').set_appliesForce(false);
-% % %     contactModel.updForceSet().get('tau_pelvis_tz').set_appliesForce(false);
+    if strcmpi(pelvisActuatorTreatment,'remove')
+
+        %Clone original force set
+        clonedForceSet = contactModel.updForceSet().clone();
+
+        %Remove forces from the cloned set
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tilt'));
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_list'));
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_rotation'));
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tx'));
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_ty'));
+        clonedForceSet.remove(clonedForceSet.get('tau_pelvis_tz'));
+
+        %Clear force set from original model
+        contactModel.getForceSet().clearAndDestroy();
+    
+        %Clone and append the updated force set
+        for ii = 0:clonedForceSet.getSize()-1
+            contactModel.updForceSet().cloneAndAppend(clonedForceSet.get(ii));
+        end
+        clear ii
+        
+    elseif strcmpi(pelvisActuatorTreatment,'reduce')
+
+        %Instead of removing pelvis actuators, set optimal force to a really
+        %low value. Combined with a high tracking weight on the controller,
+        %this should minimise their use. It seems they may still be needed in
+        %the problem to avoid conflicts with the model trajectory and problem.
+        %If they are removed then a reserve actuator gets added to the
+        %coordinate, which is also undesirable.
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tilt'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_list'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_rotation'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tx'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_ty'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        actu = CoordinateActuator.safeDownCast(contactModel.updForceSet().get('tau_pelvis_tz'));
+        actu.setOptimalForce(1e-10);  actu.setMaxControl(1); actu.setMinControl(-1);
+        
+    elseif strcmpi(pelvisActuatorTreatment,'cancel')
+        
+        %Cancel force application from pelvis actuators
+        contactModel.updForceSet().get('tau_pelvis_tilt').set_appliesForce(false);
+        contactModel.updForceSet().get('tau_pelvis_list').set_appliesForce(false);
+        contactModel.updForceSet().get('tau_pelvis_rotation').set_appliesForce(false);
+        contactModel.updForceSet().get('tau_pelvis_tx').set_appliesForce(false);
+        contactModel.updForceSet().get('tau_pelvis_ty').set_appliesForce(false);
+        contactModel.updForceSet().get('tau_pelvis_tz').set_appliesForce(false);
+        
+    end
 
     %Output model
     contactModel.finalizeConnections();
