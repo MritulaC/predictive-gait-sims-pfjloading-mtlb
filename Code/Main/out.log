@@ -1,0 +1,164 @@
+Loaded model DT_BaselineModel from file rraAdjustedOriginalModel.osim
+Processing subject 
+
+Step 1: Loading generic model
+Loaded model Moco_3Dwalking_TrunkMotion from file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\GenericModel\Moco_3Dwalking_TrunkMotion.osim
+
+Step 2: Scaling generic model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\static.trc (38 markers, 423 frames)
+Measurement 'torso_height'
+	pair 0 (RACR, RPSI): model = 0.470235, experimental = 0.468489
+	pair 1 (RACR, RASI): model = 0.511117, experimental = 0.542582
+	pair 2 (LACR, LPSI): model = 0.469178, experimental = 0.480879
+	pair 3 (LACR, LASI): model = 0.512341, experimental = 0.547295
+	overall scale factor = 1.03775
+Measurement 'torso_breadth'
+	pair 0 (C7, CLAV): model = 0.146032, experimental = 0.135073
+	overall scale factor = 0.924954
+Measurement 'torso_width'
+	pair 0 (RACR, LACR): model = 0.283321, experimental = 0.288402
+	overall scale factor = 1.01793
+Measurement 'pelvis_w'
+	pair 0 (RASI, LASI): model = 0.25789, experimental = 0.238195
+	pair 1 (RPSI, LPSI): model = 0.092731, experimental = 0.0728474
+	overall scale factor = 0.854604
+Measurement 'pelvis_d'
+	pair 0 (RASI, RPSI): model = 0.201128, experimental = 0.205241
+	pair 1 (LASI, LPSI): model = 0.192488, experimental = 0.213192
+	overall scale factor = 1.064
+Measurement 'r_thigh_length'
+	pair 0 (RASI, RLFC): model = 0.498212, experimental = 0.500813
+	pair 1 (RASI, RMFC): model = 0.508742, experimental = 0.515122
+	overall scale factor = 1.00888
+Measurement 'r_thigh_breadth'
+	pair 0 (RLFC, RMFC): model = 0.123738, experimental = 0.105028
+	overall scale factor = 0.848793
+Measurement 'r_tibia_length'
+	pair 0 (RLFC, RLMAL): model = 0.399368, experimental = 0.415509
+	pair 1 (RMFC, RMMAL): model = 0.376588, experimental = 0.39529
+	overall scale factor = 1.04504
+Measurement 'r_tibia_breadth'
+	pair 0 (RLMAL, RMMAL): model = 0.10869, experimental = 0.0879151
+	overall scale factor = 0.80886
+Measurement 'r_foot_length'
+	pair 0 (RCAL, RMT1): model = 0.251412, experimental = 0.215671
+	pair 1 (RCAL, RMT5): model = 0.234676, experimental = 0.221472
+	overall scale factor = 0.900786
+Measurement 'r_foot_width'
+	pair 0 (RMT1, RMT5): model = 0.117797, experimental = 0.094056
+	overall scale factor = 0.798461
+Measurement 'l_thigh_length'
+	pair 0 (LASI, LLFC): model = 0.51039, experimental = 0.481324
+	pair 1 (LASI, LMFC): model = 0.509252, experimental = 0.501725
+	overall scale factor = 0.964136
+Measurement 'l_thigh_breadth'
+	pair 0 (LLFC, LMFC): model = 0.125448, experimental = 0.111876
+	overall scale factor = 0.891811
+Measurement 'l_tibia_length'
+	pair 0 (LLFC, LLMAL): model = 0.362841, experimental = 0.424183
+	pair 1 (LMFC, LMMAL): model = 0.373584, experimental = 0.404219
+	overall scale factor = 1.12553
+Measurement 'l_tibia_breadth'
+	pair 0 (LLMAL, LMMAL): model = 0.103483, experimental = 0.0871252
+	overall scale factor = 0.841926
+Measurement 'l_foot_length'
+	pair 0 (LCAL, LMT1): model = 0.254272, experimental = 0.222179
+	pair 1 (LCAL, LMT5): model = 0.243097, experimental = 0.220819
+	overall scale factor = 0.891072
+Measurement 'l_foot_width'
+	pair 0 (LMT1, LMT5): model = 0.123473, experimental = 0.0888996
+	overall scale factor = 0.719991
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\MocoScaledModel.osim from model model
+Wrote scale file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\ScaleSet.xml for model model
+
+Step 3: Placing markers on model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\static.trc (38 markers, 423 frames)
+Averaged frames from time 0.5 to 1.5 in E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\static.trc (frames 125 to 375)
+Deleted 0 unused markers from model model
+Frame at (t=0.5):	total squared error = 0.0641036, marker error: RMS=0.0421978, max=0.108261 (LCAL)
+Moved markers in model model to match locations in marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Static\static.trc
+Loaded model model from file MocoScaledModel.osim
+Loaded model Moco_3Dwalking_TrunkMotion from file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\GenericModel\Moco_3Dwalking_TrunkMotion.osim
+Loaded model model from file MocoScaledModel_StrengthScaled.osim
+Loaded model DT_BaselineModel from file ..\Static\rraAdjustedOriginalModel.osim
+Storage: read data file =Jog05_rraKinematics.sto (nr=907 nc=26)
+Storage: read data file =Jog05_rraKinematics.sto (nr=907 nc=26)
+Storage: read data file =coordinates.sto (nr=189 nc=26)
+Adding reserve actuators with an optimal force of 1...
+Added 16 reserve actuator(s), for each of the following coordinates:
+  /jointset/ground_pelvis/pelvis_tilt
+  /jointset/ground_pelvis/pelvis_list
+  /jointset/ground_pelvis/pelvis_rotation
+  /jointset/ground_pelvis/pelvis_tx
+  /jointset/ground_pelvis/pelvis_ty
+  /jointset/ground_pelvis/pelvis_tz
+  /jointset/hip_r/hip_flexion_r
+  /jointset/hip_r/hip_adduction_r
+  /jointset/hip_r/hip_rotation_r
+  /jointset/walker_knee_r/knee_angle_r
+  /jointset/ankle_r/ankle_angle_r
+  /jointset/hip_l/hip_flexion_l
+  /jointset/hip_l/hip_adduction_l
+  /jointset/hip_l/hip_rotation_l
+  /jointset/walker_knee_l/knee_angle_l
+  /jointset/ankle_l/ankle_angle_l
+Adding reserve actuators with an optimal force of 1...
+Added 16 reserve actuator(s), for each of the following coordinates:
+  /jointset/ground_pelvis/pelvis_tilt
+  /jointset/ground_pelvis/pelvis_list
+  /jointset/ground_pelvis/pelvis_rotation
+  /jointset/ground_pelvis/pelvis_tx
+  /jointset/ground_pelvis/pelvis_ty
+  /jointset/ground_pelvis/pelvis_tz
+  /jointset/hip_r/hip_flexion_r
+  /jointset/hip_r/hip_adduction_r
+  /jointset/hip_r/hip_rotation_r
+  /jointset/walker_knee_r/knee_angle_r
+  /jointset/ankle_r/ankle_angle_r
+  /jointset/hip_l/hip_flexion_l
+  /jointset/hip_l/hip_adduction_l
+  /jointset/hip_l/hip_rotation_l
+  /jointset/walker_knee_l/knee_angle_l
+  /jointset/ankle_l/ankle_angle_l
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.

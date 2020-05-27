@@ -1,4 +1,4 @@
-function convertRRAtoStates(rraFile,rraModel,outputFile)
+function convertRRAtoStates(rraFile,rraModel,outputFile,inDegrees,outDegrees)
 
     %Inputs
     %
@@ -8,6 +8,11 @@ function convertRRAtoStates(rraFile,rraModel,outputFile)
     %
     % outputFile    optional filename to include for the output (will
     %               default to coordinates.sto)
+    % inDegrees     Set to true if the rraFile input is in degrees
+    % outDegrees    Set to true if the desired output is in degrees.
+    %               Typically radians files have been working better with
+    %               Moco as there is no additional confusion with
+    %               conversion steps (see Moco GitHub issue #616)
     
     import org.opensim.modeling.*
     
@@ -16,6 +21,12 @@ function convertRRAtoStates(rraFile,rraModel,outputFile)
     end
     if nargin < 3
         outputFile = 'coordinates.sto';
+    end
+    if nargin < 4
+        inDegrees = false;
+    end
+    if nargin < 5
+        outDegrees = false;
     end
     
     %Load in the RRA data
@@ -49,10 +60,23 @@ function convertRRAtoStates(rraFile,rraModel,outputFile)
 
     %Set the states storage object to have the updated column labels
     statesStorage.setColumnLabels(angleNames);
-
-    %Somewhere along the way the sates storage object changes to not be in
-    %degrees, so set it back
-    statesStorage.setInDegrees(true);
+    
+    if inDegrees && ~outDegrees
+        %Convert degrees values to radians for consistency with the current
+        %file label (defaults back to inDegrees=no). Radians seem to work
+        %better with the Moco process as well.
+        rraModel.initSystem();
+        rraModel.getSimbodyEngine().convertDegreesToRadians(statesStorage);
+    elseif inDegrees && outDegrees
+        %Change the storage label back to specifying indegrees=yes
+        statesStorage.setInDegrees(true)
+    elseif ~inDegrees && outDegrees
+        %Convert radians to degrees
+        rraModel.initSystem();
+        rraModel.getSimbodyEngine().convertRadiansToDegrees(statesStorage);
+        %Reset labeling for degrees
+        statesStorage.setInDegrees(true)
+    end
 
     %Write the states storage object to file
     statesStorage.print(outputFile);
