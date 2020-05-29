@@ -162,3 +162,1310 @@ Couldn't find file 'hat_spine.vtp'.
 Couldn't find file 'hat_jaw.vtp'.
 Couldn't find file 'hat_skull.vtp'.
 Couldn't find file 'hat_ribs_scap.vtp'.
+Storage: read data file =E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Gait\coordinates.sto (nr=189 nc=26)
+No external loads will be applied (external loads file not specified).
+
+Exception:
+  AnalyzeTool.verifyControlsStates: ERROR- Number of states in  doesn't match
+  number of states in model model.
+  file= D:\a\opensim-moco\opensim-moco\dependencies\opensim-core\OpenSim\Tools\AnalyzeTool.cpp
+  line= 478
+
+
+No external loads will be applied (external loads file not specified).
+
+Exception:
+  analyzeTool.verifyControlsStates: ERROR- a storage object containing the
+  time histories of states was not specified.
+  file= D:\a\opensim-moco\opensim-moco\dependencies\opensim-core\OpenSim\Tools\AnalyzeTool.cpp
+  line= 469
+
+
+No external loads will be applied (external loads file not specified).
+
+Exception:
+  analyzeTool.verifyControlsStates: ERROR- a storage object containing the
+  time histories of states was not specified.
+  file= D:\a\opensim-moco\opensim-moco\dependencies\opensim-core\OpenSim\Tools\AnalyzeTool.cpp
+  line= 469
+
+
+Storage: read data file =E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Gait\coordinates.sto (nr=189 nc=26)
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+===============================================================================
+MocoCasADiSolver starting. 28/05/2020 12:04:13 PM
+-------------------------------------------------------------------------------
+Costs: (total: 4)
+  state_tracking. MocoStateTrackingGoal, enabled: 1, mode: cost, weight: 1
+        state: /jointset/ground_pelvis/pelvis_tilt/value, weight: 1
+        state: /jointset/ground_pelvis/pelvis_list/value, weight: 1
+        state: /jointset/ground_pelvis/pelvis_rotation/value, weight: 1
+        state: /jointset/ground_pelvis/pelvis_tx/value, weight: 1
+        state: /jointset/ground_pelvis/pelvis_ty/value, weight: 1
+        state: /jointset/ground_pelvis/pelvis_tz/value, weight: 1
+        state: /jointset/hip_r/hip_flexion_r/value, weight: 1
+        state: /jointset/hip_r/hip_adduction_r/value, weight: 1
+        state: /jointset/hip_r/hip_rotation_r/value, weight: 1
+        state: /jointset/walker_knee_r/knee_angle_r/value, weight: 1
+        state: /jointset/patellofemoral_r/knee_angle_r_beta/value, weight: 1
+        state: /jointset/ankle_r/ankle_angle_r/value, weight: 1
+        state: /jointset/hip_l/hip_flexion_l/value, weight: 1
+        state: /jointset/hip_l/hip_adduction_l/value, weight: 1
+        state: /jointset/hip_l/hip_rotation_l/value, weight: 1
+        state: /jointset/walker_knee_l/knee_angle_l/value, weight: 1
+        state: /jointset/patellofemoral_l/knee_angle_l_beta/value, weight: 1
+        state: /jointset/ankle_l/ankle_angle_l/value, weight: 1
+        state: /jointset/back/lumbar_extension/value, weight: 1
+        state: /jointset/back/lumbar_bending/value, weight: 1
+        state: /jointset/back/lumbar_rotation/value, weight: 1
+  control_effort. MocoControlGoal, enabled: 1, mode: cost, weight: 5
+        control: /forceset/tau_lumbar_ext, weight: 1
+        control: /forceset/tau_lumbar_bend, weight: 1
+        control: /forceset/tau_lumbar_rot, weight: 1
+        control: /forceset/addbrev_r, weight: 1
+        control: /forceset/addlong_r, weight: 1
+        control: /forceset/addmagDist_r, weight: 1
+        control: /forceset/addmagIsch_r, weight: 1
+        control: /forceset/addmagMid_r, weight: 1
+        control: /forceset/addmagProx_r, weight: 1
+        control: /forceset/bflh_r, weight: 1
+        control: /forceset/bfsh_r, weight: 1
+        control: /forceset/edl_r, weight: 1
+        control: /forceset/ehl_r, weight: 1
+        control: /forceset/fdl_r, weight: 1
+        control: /forceset/fhl_r, weight: 1
+        control: /forceset/gaslat_r, weight: 1
+        control: /forceset/gasmed_r, weight: 1
+        control: /forceset/glmax1_r, weight: 1
+        control: /forceset/glmax2_r, weight: 1
+        control: /forceset/glmax3_r, weight: 1
+        control: /forceset/glmed1_r, weight: 1
+        control: /forceset/glmed2_r, weight: 1
+        control: /forceset/glmed3_r, weight: 1
+        control: /forceset/glmin1_r, weight: 1
+        control: /forceset/glmin2_r, weight: 1
+        control: /forceset/glmin3_r, weight: 1
+        control: /forceset/grac_r, weight: 1
+        control: /forceset/iliacus_r, weight: 1
+        control: /forceset/perbrev_r, weight: 1
+        control: /forceset/perlong_r, weight: 1
+        control: /forceset/piri_r, weight: 1
+        control: /forceset/psoas_r, weight: 1
+        control: /forceset/recfem_r, weight: 1
+        control: /forceset/sart_r, weight: 1
+        control: /forceset/semimem_r, weight: 1
+        control: /forceset/semiten_r, weight: 1
+        control: /forceset/soleus_r, weight: 1
+        control: /forceset/tfl_r, weight: 1
+        control: /forceset/tibant_r, weight: 1
+        control: /forceset/tibpost_r, weight: 1
+        control: /forceset/vasint_r, weight: 1
+        control: /forceset/vaslat_r, weight: 1
+        control: /forceset/vasmed_r, weight: 1
+        control: /forceset/addbrev_l, weight: 1
+        control: /forceset/addlong_l, weight: 1
+        control: /forceset/addmagDist_l, weight: 1
+        control: /forceset/addmagIsch_l, weight: 1
+        control: /forceset/addmagMid_l, weight: 1
+        control: /forceset/addmagProx_l, weight: 1
+        control: /forceset/bflh_l, weight: 1
+        control: /forceset/bfsh_l, weight: 1
+        control: /forceset/edl_l, weight: 1
+        control: /forceset/ehl_l, weight: 1
+        control: /forceset/fdl_l, weight: 1
+        control: /forceset/fhl_l, weight: 1
+        control: /forceset/gaslat_l, weight: 1
+        control: /forceset/gasmed_l, weight: 1
+        control: /forceset/glmax1_l, weight: 1
+        control: /forceset/glmax2_l, weight: 1
+        control: /forceset/glmax3_l, weight: 1
+        control: /forceset/glmed1_l, weight: 1
+        control: /forceset/glmed2_l, weight: 1
+        control: /forceset/glmed3_l, weight: 1
+        control: /forceset/glmin1_l, weight: 1
+        control: /forceset/glmin2_l, weight: 1
+        control: /forceset/glmin3_l, weight: 1
+        control: /forceset/grac_l, weight: 1
+        control: /forceset/iliacus_l, weight: 1
+        control: /forceset/perbrev_l, weight: 1
+        control: /forceset/perlong_l, weight: 1
+        control: /forceset/piri_l, weight: 1
+        control: /forceset/psoas_l, weight: 1
+        control: /forceset/recfem_l, weight: 1
+        control: /forceset/sart_l, weight: 1
+        control: /forceset/semimem_l, weight: 1
+        control: /forceset/semiten_l, weight: 1
+        control: /forceset/soleus_l, weight: 1
+        control: /forceset/tfl_l, weight: 1
+        control: /forceset/tibant_l, weight: 1
+        control: /forceset/tibpost_l, weight: 1
+        control: /forceset/vasint_l, weight: 1
+        control: /forceset/vaslat_l, weight: 1
+        control: /forceset/vasmed_l, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_list, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_rotation, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1
+        control: /forceset/reserve_jointset_ground_pelvis_pelvis_tz, weight: 1
+        control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1
+        control: /forceset/reserve_jointset_hip_r_hip_adduction_r, weight: 1
+        control: /forceset/reserve_jointset_hip_r_hip_rotation_r, weight: 1
+        control: /forceset/reserve_jointset_walker_knee_r_knee_angle_r, weight: 1
+        control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1
+        control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1
+        control: /forceset/reserve_jointset_hip_l_hip_adduction_l, weight: 1
+        control: /forceset/reserve_jointset_hip_l_hip_rotation_l, weight: 1
+        control: /forceset/reserve_jointset_walker_knee_l_knee_angle_l, weight: 1
+        control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1
+  contact. MocoContactTrackingGoal, enabled: 1, mode: cost, weight: 1
+        projection type: none
+        group 0: ExternalForce: calcn_r
+            forces: 
+                /forceset/contactHeel_r
+                /forceset/contactMH1_r
+                /forceset/contactMH3_r
+                /forceset/contactMH5_r
+                /forceset/contactOtherToes_r
+                /forceset/contactHallux_r
+        group 1: ExternalForce: calcn_l
+            forces: 
+                /forceset/contactHeel_l
+                /forceset/contactMH1_l
+                /forceset/contactMH3_l
+                /forceset/contactMH5_l
+                /forceset/contactOtherToes_l
+                /forceset/contactHallux_l
+  orientation_tracking. MocoOrientationTrackingGoal, enabled: 1, mode: cost, weight: 20
+        rotation reference file: 
+        frame 0: /bodyset/torso, weight: 1
+Endpoint constraints: (total: 2)
+  symmetryGoal. MocoPeriodicityGoal, enabled: 1, mode: endpoint_constraint
+        state periodicity pairs: 
+                initial: /jointset/ground_pelvis/pelvis_tilt/value, final: /jointset/ground_pelvis/pelvis_tilt/value
+                initial: /jointset/ground_pelvis/pelvis_tilt/speed, final: /jointset/ground_pelvis/pelvis_tilt/speed
+                initial: /jointset/ground_pelvis/pelvis_list/speed, final: /jointset/ground_pelvis/pelvis_list/speed
+                initial: /jointset/ground_pelvis/pelvis_rotation/speed, final: /jointset/ground_pelvis/pelvis_rotation/speed
+                initial: /jointset/ground_pelvis/pelvis_tx/speed, final: /jointset/ground_pelvis/pelvis_tx/speed
+                initial: /jointset/ground_pelvis/pelvis_ty/value, final: /jointset/ground_pelvis/pelvis_ty/value
+                initial: /jointset/ground_pelvis/pelvis_ty/speed, final: /jointset/ground_pelvis/pelvis_ty/speed
+                initial: /jointset/ground_pelvis/pelvis_tz/value, final: /jointset/ground_pelvis/pelvis_tz/value
+                initial: /jointset/ground_pelvis/pelvis_tz/speed, final: /jointset/ground_pelvis/pelvis_tz/speed
+                initial: /jointset/hip_r/hip_flexion_r/value, final: /jointset/hip_l/hip_flexion_l/value
+                initial: /jointset/hip_r/hip_flexion_r/speed, final: /jointset/hip_l/hip_flexion_l/speed
+                initial: /jointset/hip_r/hip_adduction_r/value, final: /jointset/hip_l/hip_adduction_l/value
+                initial: /jointset/hip_r/hip_adduction_r/speed, final: /jointset/hip_l/hip_adduction_l/speed
+                initial: /jointset/hip_r/hip_rotation_r/value, final: /jointset/hip_l/hip_rotation_l/value
+                initial: /jointset/hip_r/hip_rotation_r/speed, final: /jointset/hip_l/hip_rotation_l/speed
+                initial: /jointset/walker_knee_r/knee_angle_r/value, final: /jointset/walker_knee_l/knee_angle_l/value
+                initial: /jointset/walker_knee_r/knee_angle_r/speed, final: /jointset/walker_knee_l/knee_angle_l/speed
+                initial: /jointset/patellofemoral_r/knee_angle_r_beta/value, final: /jointset/patellofemoral_l/knee_angle_l_beta/value
+                initial: /jointset/patellofemoral_r/knee_angle_r_beta/speed, final: /jointset/patellofemoral_l/knee_angle_l_beta/speed
+                initial: /jointset/ankle_r/ankle_angle_r/value, final: /jointset/ankle_l/ankle_angle_l/value
+                initial: /jointset/ankle_r/ankle_angle_r/speed, final: /jointset/ankle_l/ankle_angle_l/speed
+                initial: /jointset/hip_l/hip_flexion_l/value, final: /jointset/hip_r/hip_flexion_r/value
+                initial: /jointset/hip_l/hip_flexion_l/speed, final: /jointset/hip_r/hip_flexion_r/speed
+                initial: /jointset/hip_l/hip_adduction_l/value, final: /jointset/hip_r/hip_adduction_r/value
+                initial: /jointset/hip_l/hip_adduction_l/speed, final: /jointset/hip_r/hip_adduction_r/speed
+                initial: /jointset/hip_l/hip_rotation_l/value, final: /jointset/hip_r/hip_rotation_r/value
+                initial: /jointset/hip_l/hip_rotation_l/speed, final: /jointset/hip_r/hip_rotation_r/speed
+                initial: /jointset/walker_knee_l/knee_angle_l/value, final: /jointset/walker_knee_r/knee_angle_r/value
+                initial: /jointset/walker_knee_l/knee_angle_l/speed, final: /jointset/walker_knee_r/knee_angle_r/speed
+                initial: /jointset/patellofemoral_l/knee_angle_l_beta/value, final: /jointset/patellofemoral_r/knee_angle_r_beta/value
+                initial: /jointset/patellofemoral_l/knee_angle_l_beta/speed, final: /jointset/patellofemoral_r/knee_angle_r_beta/speed
+                initial: /jointset/ankle_l/ankle_angle_l/value, final: /jointset/ankle_r/ankle_angle_r/value
+                initial: /jointset/ankle_l/ankle_angle_l/speed, final: /jointset/ankle_r/ankle_angle_r/speed
+                initial: /jointset/back/lumbar_extension/value, final: /jointset/back/lumbar_extension/value
+                initial: /jointset/back/lumbar_extension/speed, final: /jointset/back/lumbar_extension/speed
+                initial: /jointset/back/lumbar_bending/speed, final: /jointset/back/lumbar_bending/speed
+                initial: /jointset/back/lumbar_rotation/speed, final: /jointset/back/lumbar_rotation/speed
+                initial: /forceset/addbrev_r/activation, final: /forceset/addbrev_l/activation
+                initial: /forceset/addlong_r/activation, final: /forceset/addlong_l/activation
+                initial: /forceset/addmagDist_r/activation, final: /forceset/addmagDist_l/activation
+                initial: /forceset/addmagIsch_r/activation, final: /forceset/addmagIsch_l/activation
+                initial: /forceset/addmagMid_r/activation, final: /forceset/addmagMid_l/activation
+                initial: /forceset/addmagProx_r/activation, final: /forceset/addmagProx_l/activation
+                initial: /forceset/bflh_r/activation, final: /forceset/bflh_l/activation
+                initial: /forceset/bfsh_r/activation, final: /forceset/bfsh_l/activation
+                initial: /forceset/edl_r/activation, final: /forceset/edl_l/activation
+                initial: /forceset/ehl_r/activation, final: /forceset/ehl_l/activation
+                initial: /forceset/fdl_r/activation, final: /forceset/fdl_l/activation
+                initial: /forceset/fhl_r/activation, final: /forceset/fhl_l/activation
+                initial: /forceset/gaslat_r/activation, final: /forceset/gaslat_l/activation
+                initial: /forceset/gasmed_r/activation, final: /forceset/gasmed_l/activation
+                initial: /forceset/glmax1_r/activation, final: /forceset/glmax1_l/activation
+                initial: /forceset/glmax2_r/activation, final: /forceset/glmax2_l/activation
+                initial: /forceset/glmax3_r/activation, final: /forceset/glmax3_l/activation
+                initial: /forceset/glmed1_r/activation, final: /forceset/glmed1_l/activation
+                initial: /forceset/glmed2_r/activation, final: /forceset/glmed2_l/activation
+                initial: /forceset/glmed3_r/activation, final: /forceset/glmed3_l/activation
+                initial: /forceset/glmin1_r/activation, final: /forceset/glmin1_l/activation
+                initial: /forceset/glmin2_r/activation, final: /forceset/glmin2_l/activation
+                initial: /forceset/glmin3_r/activation, final: /forceset/glmin3_l/activation
+                initial: /forceset/grac_r/activation, final: /forceset/grac_l/activation
+                initial: /forceset/iliacus_r/activation, final: /forceset/iliacus_l/activation
+                initial: /forceset/perbrev_r/activation, final: /forceset/perbrev_l/activation
+                initial: /forceset/perlong_r/activation, final: /forceset/perlong_l/activation
+                initial: /forceset/piri_r/activation, final: /forceset/piri_l/activation
+                initial: /forceset/psoas_r/activation, final: /forceset/psoas_l/activation
+                initial: /forceset/recfem_r/activation, final: /forceset/recfem_l/activation
+                initial: /forceset/sart_r/activation, final: /forceset/sart_l/activation
+                initial: /forceset/semimem_r/activation, final: /forceset/semimem_l/activation
+                initial: /forceset/semiten_r/activation, final: /forceset/semiten_l/activation
+                initial: /forceset/soleus_r/activation, final: /forceset/soleus_l/activation
+                initial: /forceset/tfl_r/activation, final: /forceset/tfl_l/activation
+                initial: /forceset/tibant_r/activation, final: /forceset/tibant_l/activation
+                initial: /forceset/tibpost_r/activation, final: /forceset/tibpost_l/activation
+                initial: /forceset/vasint_r/activation, final: /forceset/vasint_l/activation
+                initial: /forceset/vaslat_r/activation, final: /forceset/vaslat_l/activation
+                initial: /forceset/vasmed_r/activation, final: /forceset/vasmed_l/activation
+                initial: /forceset/addbrev_l/activation, final: /forceset/addbrev_r/activation
+                initial: /forceset/addlong_l/activation, final: /forceset/addlong_r/activation
+                initial: /forceset/addmagDist_l/activation, final: /forceset/addmagDist_r/activation
+                initial: /forceset/addmagIsch_l/activation, final: /forceset/addmagIsch_r/activation
+                initial: /forceset/addmagMid_l/activation, final: /forceset/addmagMid_r/activation
+                initial: /forceset/addmagProx_l/activation, final: /forceset/addmagProx_r/activation
+                initial: /forceset/bflh_l/activation, final: /forceset/bflh_r/activation
+                initial: /forceset/bfsh_l/activation, final: /forceset/bfsh_r/activation
+                initial: /forceset/edl_l/activation, final: /forceset/edl_r/activation
+                initial: /forceset/ehl_l/activation, final: /forceset/ehl_r/activation
+                initial: /forceset/fdl_l/activation, final: /forceset/fdl_r/activation
+                initial: /forceset/fhl_l/activation, final: /forceset/fhl_r/activation
+                initial: /forceset/gaslat_l/activation, final: /forceset/gaslat_r/activation
+                initial: /forceset/gasmed_l/activation, final: /forceset/gasmed_r/activation
+                initial: /forceset/glmax1_l/activation, final: /forceset/glmax1_r/activation
+                initial: /forceset/glmax2_l/activation, final: /forceset/glmax2_r/activation
+                initial: /forceset/glmax3_l/activation, final: /forceset/glmax3_r/activation
+                initial: /forceset/glmed1_l/activation, final: /forceset/glmed1_r/activation
+                initial: /forceset/glmed2_l/activation, final: /forceset/glmed2_r/activation
+                initial: /forceset/glmed3_l/activation, final: /forceset/glmed3_r/activation
+                initial: /forceset/glmin1_l/activation, final: /forceset/glmin1_r/activation
+                initial: /forceset/glmin2_l/activation, final: /forceset/glmin2_r/activation
+                initial: /forceset/glmin3_l/activation, final: /forceset/glmin3_r/activation
+                initial: /forceset/grac_l/activation, final: /forceset/grac_r/activation
+                initial: /forceset/iliacus_l/activation, final: /forceset/iliacus_r/activation
+                initial: /forceset/perbrev_l/activation, final: /forceset/perbrev_r/activation
+                initial: /forceset/perlong_l/activation, final: /forceset/perlong_r/activation
+                initial: /forceset/piri_l/activation, final: /forceset/piri_r/activation
+                initial: /forceset/psoas_l/activation, final: /forceset/psoas_r/activation
+                initial: /forceset/recfem_l/activation, final: /forceset/recfem_r/activation
+                initial: /forceset/sart_l/activation, final: /forceset/sart_r/activation
+                initial: /forceset/semimem_l/activation, final: /forceset/semimem_r/activation
+                initial: /forceset/semiten_l/activation, final: /forceset/semiten_r/activation
+                initial: /forceset/soleus_l/activation, final: /forceset/soleus_r/activation
+                initial: /forceset/tfl_l/activation, final: /forceset/tfl_r/activation
+                initial: /forceset/tibant_l/activation, final: /forceset/tibant_r/activation
+                initial: /forceset/tibpost_l/activation, final: /forceset/tibpost_r/activation
+                initial: /forceset/vasint_l/activation, final: /forceset/vasint_r/activation
+                initial: /forceset/vaslat_l/activation, final: /forceset/vaslat_r/activation
+                initial: /forceset/vasmed_l/activation, final: /forceset/vasmed_r/activation
+        control periodicity pairs: 
+                initial: /forceset/tau_lumbar_ext, final: /forceset/tau_lumbar_ext
+  speed. MocoAverageSpeedGoal, enabled: 1, mode: endpoint_constraint
+Kinematic constraints: (total: 2)
+  kinematic_constraint_cid21. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+  kinematic_constraint_cid22. MocoConstraintInfo. number of scalar equations: 3. bounds: 0, 0, 0
+Path constraints: none
+States: (total: 122)
+  /jointset/ground_pelvis/pelvis_list/value. bounds: [-0.174533, 0.174533]
+  /forceset/glmed1_r/activation. bounds: [0.01, 1]
+  /forceset/gaslat_r/activation. bounds: [0.01, 1]
+  /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-0.523599, 0.523599]
+  /jointset/ground_pelvis/pelvis_rotation/value. bounds: [-0.261799, 0.261799]
+  /jointset/ground_pelvis/pelvis_tx/value. bounds: [0, 5]
+  /forceset/addmagMid_l/activation. bounds: [0.01, 1]
+  /jointset/ground_pelvis/pelvis_ty/value. bounds: [0.75, 1.25]
+  /jointset/ground_pelvis/pelvis_tz/value. bounds: [0, 1]
+  /jointset/hip_r/hip_adduction_r/speed. bounds: [-50, 50]
+  /jointset/ankle_r/ankle_angle_r/value. bounds: [-0.698132, 0.523599]
+  /jointset/hip_r/hip_flexion_r/value. bounds: [-0.349066, 1.0472]
+  /jointset/hip_r/hip_adduction_r/value. bounds: [-0.349066, 0.349066]
+  /jointset/back/lumbar_rotation/speed. bounds: [-50, 50]
+  /jointset/hip_r/hip_rotation_r/value. bounds: [-0.349066, 0.349066]
+  /jointset/hip_l/hip_flexion_l/value. bounds: [-0.349066, 1.0472]
+  /jointset/hip_l/hip_adduction_l/value. bounds: [-0.349066, 0.349066]
+  /jointset/hip_l/hip_rotation_l/value. bounds: [-0.349066, 0.349066]
+  /jointset/walker_knee_r/knee_angle_r/value. bounds: [0, 2.0944]
+  /jointset/walker_knee_l/knee_angle_l/value. bounds: [0, 2.0944]
+  /jointset/ankle_l/ankle_angle_l/value. bounds: [-0.698132, 0.523599]
+  /jointset/back/lumbar_extension/value. bounds: [-0.174533, 0.349066]
+  /jointset/back/lumbar_bending/value. bounds: [-0.261799, 0.261799]
+  /jointset/back/lumbar_rotation/value. bounds: [-0.523599, 0.523599]
+  /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+  /jointset/ground_pelvis/pelvis_list/speed. bounds: [-50, 50]
+  /forceset/perlong_l/activation. bounds: [0.01, 1]
+  /jointset/ground_pelvis/pelvis_rotation/speed. bounds: [-50, 50]
+  /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+  /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+  /jointset/ground_pelvis/pelvis_tz/speed. bounds: [-50, 50]
+  /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+  /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+  /forceset/vasint_r/activation. bounds: [0.01, 1]
+  /jointset/hip_r/hip_rotation_r/speed. bounds: [-50, 50]
+  /jointset/walker_knee_r/knee_angle_r/speed. bounds: [-50, 50]
+  /jointset/patellofemoral_r/knee_angle_r_beta/value. bounds: [-99999.9, 99999.9]
+  /forceset/glmin2_l/activation. bounds: [0.01, 1]
+  /jointset/patellofemoral_r/knee_angle_r_beta/speed. bounds: [-50, 50]
+  /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+  /jointset/hip_l/hip_adduction_l/speed. bounds: [-50, 50]
+  /jointset/hip_l/hip_rotation_l/speed. bounds: [-50, 50]
+  /jointset/walker_knee_l/knee_angle_l/speed. bounds: [-50, 50]
+  /jointset/patellofemoral_l/knee_angle_l_beta/value. bounds: [-99999.9, 99999.9]
+  /jointset/patellofemoral_l/knee_angle_l_beta/speed. bounds: [-50, 50]
+  /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+  /jointset/back/lumbar_extension/speed. bounds: [-50, 50]
+  /jointset/back/lumbar_bending/speed. bounds: [-50, 50]
+  /forceset/addbrev_r/activation. bounds: [0.01, 1]
+  /forceset/addlong_r/activation. bounds: [0.01, 1]
+  /forceset/addmagDist_r/activation. bounds: [0.01, 1]
+  /forceset/addmagIsch_r/activation. bounds: [0.01, 1]
+  /forceset/addmagMid_r/activation. bounds: [0.01, 1]
+  /forceset/addmagProx_r/activation. bounds: [0.01, 1]
+  /forceset/bflh_r/activation. bounds: [0.01, 1]
+  /forceset/bfsh_r/activation. bounds: [0.01, 1]
+  /forceset/edl_r/activation. bounds: [0.01, 1]
+  /forceset/semimem_r/activation. bounds: [0.01, 1]
+  /forceset/ehl_r/activation. bounds: [0.01, 1]
+  /forceset/fdl_r/activation. bounds: [0.01, 1]
+  /forceset/fhl_r/activation. bounds: [0.01, 1]
+  /forceset/gasmed_r/activation. bounds: [0.01, 1]
+  /forceset/glmax1_r/activation. bounds: [0.01, 1]
+  /forceset/vaslat_r/activation. bounds: [0.01, 1]
+  /forceset/glmax2_r/activation. bounds: [0.01, 1]
+  /forceset/glmax3_r/activation. bounds: [0.01, 1]
+  /forceset/glmed2_r/activation. bounds: [0.01, 1]
+  /forceset/tibant_r/activation. bounds: [0.01, 1]
+  /forceset/glmed3_r/activation. bounds: [0.01, 1]
+  /forceset/glmin1_r/activation. bounds: [0.01, 1]
+  /forceset/glmin2_r/activation. bounds: [0.01, 1]
+  /forceset/glmin3_r/activation. bounds: [0.01, 1]
+  /forceset/grac_r/activation. bounds: [0.01, 1]
+  /forceset/iliacus_r/activation. bounds: [0.01, 1]
+  /forceset/perbrev_r/activation. bounds: [0.01, 1]
+  /forceset/perlong_r/activation. bounds: [0.01, 1]
+  /forceset/piri_r/activation. bounds: [0.01, 1]
+  /forceset/psoas_r/activation. bounds: [0.01, 1]
+  /forceset/recfem_r/activation. bounds: [0.01, 1]
+  /forceset/sart_r/activation. bounds: [0.01, 1]
+  /forceset/semiten_r/activation. bounds: [0.01, 1]
+  /forceset/soleus_r/activation. bounds: [0.01, 1]
+  /forceset/tfl_r/activation. bounds: [0.01, 1]
+  /forceset/tibpost_r/activation. bounds: [0.01, 1]
+  /forceset/vasmed_r/activation. bounds: [0.01, 1]
+  /forceset/addbrev_l/activation. bounds: [0.01, 1]
+  /forceset/addlong_l/activation. bounds: [0.01, 1]
+  /forceset/addmagDist_l/activation. bounds: [0.01, 1]
+  /forceset/addmagIsch_l/activation. bounds: [0.01, 1]
+  /forceset/addmagProx_l/activation. bounds: [0.01, 1]
+  /forceset/bflh_l/activation. bounds: [0.01, 1]
+  /forceset/bfsh_l/activation. bounds: [0.01, 1]
+  /forceset/edl_l/activation. bounds: [0.01, 1]
+  /forceset/semimem_l/activation. bounds: [0.01, 1]
+  /forceset/ehl_l/activation. bounds: [0.01, 1]
+  /forceset/fdl_l/activation. bounds: [0.01, 1]
+  /forceset/fhl_l/activation. bounds: [0.01, 1]
+  /forceset/glmed1_l/activation. bounds: [0.01, 1]
+  /forceset/gaslat_l/activation. bounds: [0.01, 1]
+  /forceset/gasmed_l/activation. bounds: [0.01, 1]
+  /forceset/glmax1_l/activation. bounds: [0.01, 1]
+  /forceset/vaslat_l/activation. bounds: [0.01, 1]
+  /forceset/glmax2_l/activation. bounds: [0.01, 1]
+  /forceset/glmax3_l/activation. bounds: [0.01, 1]
+  /forceset/glmed2_l/activation. bounds: [0.01, 1]
+  /forceset/tibant_l/activation. bounds: [0.01, 1]
+  /forceset/glmed3_l/activation. bounds: [0.01, 1]
+  /forceset/glmin1_l/activation. bounds: [0.01, 1]
+  /forceset/glmin3_l/activation. bounds: [0.01, 1]
+  /forceset/grac_l/activation. bounds: [0.01, 1]
+  /forceset/iliacus_l/activation. bounds: [0.01, 1]
+  /forceset/perbrev_l/activation. bounds: [0.01, 1]
+  /forceset/piri_l/activation. bounds: [0.01, 1]
+  /forceset/psoas_l/activation. bounds: [0.01, 1]
+  /forceset/recfem_l/activation. bounds: [0.01, 1]
+  /forceset/sart_l/activation. bounds: [0.01, 1]
+  /forceset/semiten_l/activation. bounds: [0.01, 1]
+  /forceset/soleus_l/activation. bounds: [0.01, 1]
+  /forceset/tfl_l/activation. bounds: [0.01, 1]
+  /forceset/tibpost_l/activation. bounds: [0.01, 1]
+  /forceset/vasint_l/activation. bounds: [0.01, 1]
+  /forceset/vasmed_l/activation. bounds: [0.01, 1]
+Controls: (total: 99):
+  /forceset/addmagIsch_r. bounds: [0.01, 1]
+  /forceset/tau_lumbar_ext. bounds: [-1, 1]
+  /forceset/tau_lumbar_bend. bounds: [-1, 1]
+  /forceset/tau_lumbar_rot. bounds: [-1, 1]
+  /forceset/addbrev_r. bounds: [0.01, 1]
+  /forceset/addlong_r. bounds: [0.01, 1]
+  /forceset/addmagDist_r. bounds: [0.01, 1]
+  /forceset/addmagMid_r. bounds: [0.01, 1]
+  /forceset/addmagProx_r. bounds: [0.01, 1]
+  /forceset/bflh_r. bounds: [0.01, 1]
+  /forceset/bfsh_r. bounds: [0.01, 1]
+  /forceset/edl_r. bounds: [0.01, 1]
+  /forceset/semimem_r. bounds: [0.01, 1]
+  /forceset/ehl_r. bounds: [0.01, 1]
+  /forceset/fdl_r. bounds: [0.01, 1]
+  /forceset/fhl_r. bounds: [0.01, 1]
+  /forceset/glmed1_r. bounds: [0.01, 1]
+  /forceset/gaslat_r. bounds: [0.01, 1]
+  /forceset/gasmed_r. bounds: [0.01, 1]
+  /forceset/glmax1_r. bounds: [0.01, 1]
+  /forceset/vaslat_r. bounds: [0.01, 1]
+  /forceset/glmax2_r. bounds: [0.01, 1]
+  /forceset/glmax3_r. bounds: [0.01, 1]
+  /forceset/glmed2_r. bounds: [0.01, 1]
+  /forceset/tibant_r. bounds: [0.01, 1]
+  /forceset/glmed3_r. bounds: [0.01, 1]
+  /forceset/glmin1_r. bounds: [0.01, 1]
+  /forceset/glmin2_r. bounds: [0.01, 1]
+  /forceset/glmin3_r. bounds: [0.01, 1]
+  /forceset/grac_r. bounds: [0.01, 1]
+  /forceset/iliacus_r. bounds: [0.01, 1]
+  /forceset/perbrev_r. bounds: [0.01, 1]
+  /forceset/perlong_r. bounds: [0.01, 1]
+  /forceset/piri_r. bounds: [0.01, 1]
+  /forceset/psoas_r. bounds: [0.01, 1]
+  /forceset/recfem_r. bounds: [0.01, 1]
+  /forceset/sart_r. bounds: [0.01, 1]
+  /forceset/semiten_r. bounds: [0.01, 1]
+  /forceset/soleus_r. bounds: [0.01, 1]
+  /forceset/tfl_r. bounds: [0.01, 1]
+  /forceset/tibpost_r. bounds: [0.01, 1]
+  /forceset/vasint_r. bounds: [0.01, 1]
+  /forceset/vasmed_r. bounds: [0.01, 1]
+  /forceset/addbrev_l. bounds: [0.01, 1]
+  /forceset/addlong_l. bounds: [0.01, 1]
+  /forceset/addmagDist_l. bounds: [0.01, 1]
+  /forceset/addmagIsch_l. bounds: [0.01, 1]
+  /forceset/addmagMid_l. bounds: [0.01, 1]
+  /forceset/addmagProx_l. bounds: [0.01, 1]
+  /forceset/bflh_l. bounds: [0.01, 1]
+  /forceset/bfsh_l. bounds: [0.01, 1]
+  /forceset/edl_l. bounds: [0.01, 1]
+  /forceset/semimem_l. bounds: [0.01, 1]
+  /forceset/ehl_l. bounds: [0.01, 1]
+  /forceset/fdl_l. bounds: [0.01, 1]
+  /forceset/fhl_l. bounds: [0.01, 1]
+  /forceset/glmed1_l. bounds: [0.01, 1]
+  /forceset/gaslat_l. bounds: [0.01, 1]
+  /forceset/gasmed_l. bounds: [0.01, 1]
+  /forceset/glmax1_l. bounds: [0.01, 1]
+  /forceset/vaslat_l. bounds: [0.01, 1]
+  /forceset/glmax2_l. bounds: [0.01, 1]
+  /forceset/glmax3_l. bounds: [0.01, 1]
+  /forceset/glmed2_l. bounds: [0.01, 1]
+  /forceset/tibant_l. bounds: [0.01, 1]
+  /forceset/glmed3_l. bounds: [0.01, 1]
+  /forceset/glmin1_l. bounds: [0.01, 1]
+  /forceset/glmin2_l. bounds: [0.01, 1]
+  /forceset/glmin3_l. bounds: [0.01, 1]
+  /forceset/grac_l. bounds: [0.01, 1]
+  /forceset/iliacus_l. bounds: [0.01, 1]
+  /forceset/perbrev_l. bounds: [0.01, 1]
+  /forceset/perlong_l. bounds: [0.01, 1]
+  /forceset/piri_l. bounds: [0.01, 1]
+  /forceset/psoas_l. bounds: [0.01, 1]
+  /forceset/recfem_l. bounds: [0.01, 1]
+  /forceset/sart_l. bounds: [0.01, 1]
+  /forceset/semiten_l. bounds: [0.01, 1]
+  /forceset/soleus_l. bounds: [0.01, 1]
+  /forceset/tfl_l. bounds: [0.01, 1]
+  /forceset/tibpost_l. bounds: [0.01, 1]
+  /forceset/vasint_l. bounds: [0.01, 1]
+  /forceset/vasmed_l. bounds: [0.01, 1]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_list. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_rotation. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ground_pelvis_pelvis_tz. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_r_hip_adduction_r. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_r_hip_rotation_r. bounds: [-inf, inf]
+  /forceset/reserve_jointset_walker_knee_r_knee_angle_r. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_l_hip_adduction_l. bounds: [-inf, inf]
+  /forceset/reserve_jointset_walker_knee_l_knee_angle_l. bounds: [-inf, inf]
+  /forceset/reserve_jointset_hip_l_hip_rotation_l. bounds: [-inf, inf]
+  /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+Parameters: none
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+Number of threads: 8
+
+List of user-set options:
+
+                                    Name   Value                used
+                   hessian_approximation = limited-memory        yes
+                                max_iter = 1000                  yes
+                      print_user_options = yes                   yes
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.8, running with linear solver mumps.
+NOTE: Other linear solvers might be more efficient (see Ipopt documentation).
+
+Number of nonzeros in equality constraint Jacobian...:  2941012
+Number of nonzeros in inequality constraint Jacobian.:        0
+Number of nonzeros in Lagrangian Hessian.............:        0
+
+Total number of variables............................:    11423
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:    10607
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     8850
+Total number of inequality constraints...............:        0
+        inequality constraints with only lower bounds:        0
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:        0
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.0080416e+01 3.61e+03 1.00e+02   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.0231438e+01 1.45e+03 5.79e+01  -3.0 8.68e-02    -  6.26e-01 5.99e-01h  1
+   2  1.0299342e+01 1.23e+01 3.24e+01  -3.4 2.96e-01    -  8.72e-01 1.00e+00h  1
+   3  9.9704496e+00 1.48e+02 2.19e+02  -4.3 2.30e+00    -  3.54e-01 8.00e-01f  1
+   4  9.4668919e+00 1.38e+02 1.96e+02  -4.5 2.46e+00    -  5.40e-01 2.99e-01h  1
+   5  9.2674097e+00 1.26e+02 1.77e+02  -4.9 2.21e+00    -  3.07e-01 8.88e-02h  1
+   6  9.1734584e+00 1.21e+02 1.39e+02  -5.0 1.64e+00    -  2.87e-01 4.91e-02h  1
+   7  8.9286557e+00 1.31e+02 1.33e+02  -5.2 2.48e+00    -  1.17e-01 1.29e-01h  1
+   8  8.4683317e+00 2.41e+02 1.10e+02  -5.2 7.57e+00    -  9.32e-02 1.06e-01h  1
+   9  8.2547101e+00 2.40e+02 1.39e+02  -5.3 1.54e+01    -  7.04e-03 2.35e-02h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  7.7965223e+00 3.26e+02 1.88e+02  -5.3 2.05e+01    -  1.57e-02 8.22e-02f  2
+  11  7.7549050e+00 3.09e+02 1.60e+02  -5.3 2.91e-01    -  2.87e-01 5.11e-02h  1
+  12  7.6772752e+00 2.68e+02 1.36e+02  -5.4 3.14e-01    -  4.41e-01 1.33e-01h  1
+  13  7.6402885e+00 2.51e+02 1.25e+02  -5.7 3.36e-01    -  4.60e-02 6.66e-02h  1
+  14  7.5777218e+00 2.26e+02 1.09e+02  -5.7 3.59e-01    -  2.85e-01 1.01e-01h  1
+  15  7.3991641e+00 1.76e+02 7.81e+01  -5.8 3.61e-01    -  1.01e-01 2.59e-01h  1
+  16  7.2602516e+00 1.46e+02 4.36e+01  -5.9 4.06e-01    -  2.80e-01 1.79e-01h  1
+  17  7.2281651e+00 1.40e+02 3.97e+01  -6.0 4.18e-01    -  4.05e-01 4.54e-02h  1
+  18  7.1549827e+00 1.34e+02 4.58e+01  -6.2 1.20e+00    -  3.84e-02 6.70e-02h  1
+  19  7.1179146e+00 1.29e+02 4.61e+01  -6.3 9.08e-01    -  1.11e-01 3.90e-02h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  7.0450254e+00 1.37e+02 2.25e+01  -6.3 1.60e+00    -  1.56e-01 3.85e-02h  1
+  21  6.9390571e+00 1.57e+02 2.95e+01  -6.4 1.47e+00    -  1.93e-01 8.44e-02h  1
+  22  6.8156747e+00 2.21e+02 3.88e+01  -6.5 5.33e+00    -  7.58e-02 3.83e-02h  1
+  23  6.7744678e+00 2.18e+02 4.42e+01  -6.5 2.38e+00    -  1.62e-01 2.63e-02h  1
+  24  6.5867480e+00 3.64e+02 2.99e+01  -6.6 4.15e+00    -  1.74e-02 1.12e-01h  1
+  25  6.4655160e+00 4.42e+02 6.84e+01  -6.6 4.35e+00    -  3.50e-02 8.18e-02h  1
+  26  6.4270564e+00 4.36e+02 6.68e+01  -6.6 3.56e+00    -  1.16e-01 2.05e-02h  1
+  27  6.3754899e+00 4.28e+02 6.78e+01  -6.7 2.77e+00    -  3.55e-02 3.20e-02h  1
+  28  6.2629797e+00 4.68e+02 7.79e+01  -6.7 4.91e+00    -  3.82e-02 5.05e-02h  1
+  29  6.1463010e+00 4.58e+02 6.24e+01  -6.7 5.25e+00    -  5.74e-02 4.99e-02h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  6.1137129e+00 4.54e+02 6.02e+01  -6.7 7.52e+00    -  9.27e-03 1.04e-02h  1
+  31  6.0251016e+00 4.70e+02 4.37e+01  -6.7 1.40e+01    -  1.51e-02 1.94e-02h  1
+  32  5.9411709e+00 4.62e+02 4.29e+01  -6.7 9.43e+00    -  3.88e-03 3.22e-02h  1
+  33  5.8819269e+00 4.64e+02 4.61e+01  -6.7 1.45e+01    -  2.36e-02 1.25e-02h  1
+  34  5.8245988e+00 4.63e+02 5.03e+01  -6.8 1.58e+01    -  3.70e-02 1.47e-02h  1
+  35  5.7552157e+00 4.60e+02 4.33e+01  -6.8 1.19e+01    -  1.44e-02 2.48e-02h  1
+  36  5.7532203e+00 4.60e+02 4.33e+01  -6.8 1.43e+01    -  1.53e-02 4.76e-04h  1
+  37  5.7435220e+00 4.61e+02 4.25e+01  -2.9 1.05e+02    -  3.51e-04 2.05e-03f  1
+  38  5.7412038e+00 4.61e+02 4.25e+01  -6.8 1.87e+01    -  2.77e-02 3.47e-04h  1
+  39  5.6992844e+00 4.60e+02 4.73e+01  -6.8 2.36e+01    -  1.99e-02 4.95e-03h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  5.6533207e+00 4.56e+02 4.61e+01  -6.8 1.23e+01    -  4.76e-02 1.20e-02h  1
+  41  5.7480456e+00 4.66e+02 7.54e+01  -2.9 2.20e+01    -  5.03e-03 1.84e-02f  1
+  42  6.0762250e+00 4.58e+02 6.13e+01  -0.9 1.36e+03    -  3.59e-04 3.52e-04f  1
+  43  6.7097421e+00 4.65e+02 7.74e+01  -0.9 9.30e+02    -  5.73e-04 4.81e-04f  1
+  44  7.5217254e+00 5.05e+02 8.50e+01  -0.9 3.88e+02    -  7.12e-04 1.04e-03f  1
+  45  8.6253703e+00 7.09e+02 5.82e+01  -0.9 3.32e+02    -  1.78e-03 1.21e-03f  1
+  46  1.3305946e+01 1.54e+03 2.24e+02  -0.9 2.16e+02    -  3.51e-03 3.82e-03f  1
+  47  1.7579203e+01 2.19e+03 3.16e+02  -0.9 1.27e+02    -  9.79e-03 6.92e-03f  1
+  48  2.4743776e+01 3.20e+03 4.31e+02  -0.9 5.31e+01    -  1.48e-02 1.80e-02f  1
+  49  2.9652777e+01 3.91e+03 6.14e+02  -0.9 1.79e+01    -  6.52e-02 3.06e-02f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  4.0806397e+01 8.62e+03 1.00e+03  -0.9 1.37e+01    -  1.16e-01 1.13e-01f  1
+  51  5.0821246e+01 2.12e+04 8.84e+02  -0.9 1.02e+01    -  1.49e-01 1.80e-01f  1
+  52  9.2532969e+01 5.65e+04 2.00e+03  -0.9 2.08e+01    -  4.68e-01 2.93e-01f  1
+  53  7.6141489e+01 4.00e+04 1.57e+03  -0.9 5.22e+00    -  4.75e-01 3.99e-01f  1
+  54  6.3877666e+01 3.20e+04 6.00e+02  -0.9 2.24e+01    -  6.53e-01 2.23e-01f  1
+  55  5.5617758e+01 1.83e+04 9.18e+02  -0.9 6.15e+00    -  5.57e-01 4.89e-01f  1
+  56  7.0928903e+01 2.16e+04 2.98e+03  -0.9 3.81e+00    -  6.06e-01 9.59e-01f  1
+  57  9.8571990e+01 9.06e+03 9.72e+02  -0.9 6.01e+00    -  7.53e-01 6.28e-01h  1
+  58  7.5438428e+01 1.64e+03 9.38e+02  -0.9 3.00e+00    -  5.65e-01 1.00e+00f  1
+  59  5.2819483e+01 1.45e+03 5.87e+02  -0.9 4.01e+00    -  8.18e-01 7.41e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  60  5.6839350e+01 5.97e+02 1.27e+03  -0.9 4.87e+00    -  5.82e-01 6.52e-01F  1
+  61  1.4122174e+02 9.82e+02 1.96e+04  -0.9 2.93e+00    -  9.60e-01 5.33e-01H  1
+  62  7.0223849e+01 5.15e+02 4.70e+03  -0.9 5.67e+00    -  2.10e-01 5.27e-01f  1
+  63  5.6154140e+01 4.50e+02 1.56e+03  -0.9 7.68e+00    -  2.75e-01 3.48e-01f  2
+  64  5.7960032e+01 2.38e+02 1.35e+03  -0.9 1.66e+00    -  1.00e+00 9.67e-01f  1
+  65  5.2404099e+01 5.67e+02 3.68e+02  -0.9 6.96e-01    -  1.00e+00 1.00e+00f  1
+  66  5.0610345e+01 5.14e+02 3.10e+02  -0.9 2.29e+00    -  4.16e-01 2.24e-01f  3
+  67  4.9701095e+01 6.55e+02 1.36e+03  -0.9 1.58e+00    -  1.00e+00 1.00e+00f  1
+  68  5.4585771e+01 2.43e+03 7.94e+02  -0.9 2.19e+00    -  1.00e+00 1.00e+00f  1
+  69  5.3226162e+01 3.52e+03 1.22e+03  -0.9 5.73e+00    -  7.19e-01 7.72e-01F  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  70  5.1136742e+01 1.50e+03 1.06e+03  -0.9 1.65e+00    -  2.82e-01 1.00e+00f  1
+  71  6.1750159e+01 6.20e+02 1.13e+03  -0.9 1.78e+00    -  1.00e+00 1.00e+00h  1
+  72  4.8654142e+01 9.83e+02 7.31e+02  -0.9 1.26e+00    -  9.87e-01 8.52e-01f  1
+  73  5.3255793e+01 1.94e+02 8.92e+02  -0.9 1.45e+00    -  7.91e-01 8.52e-01H  1
+  74  4.6217605e+01 3.90e+02 1.45e+03  -0.9 2.83e+00    -  1.00e+00 9.38e-01f  1
+  75  6.7606881e+01 4.45e+01 4.05e+03  -0.9 2.15e+00    -  6.86e-01 1.00e+00H  1
+  76  5.0188751e+01 1.96e+02 1.18e+03  -0.9 1.56e+00    -  1.00e+00 6.56e-01f  1
+  77  4.8275810e+01 1.37e+02 9.52e+02  -0.9 1.00e+00    -  7.74e-01 1.00e+00F  1
+  78  4.8523377e+01 1.82e+02 3.78e+02  -0.9 8.56e-01    -  1.00e+00 1.00e+00f  1
+  79  4.7057405e+01 4.62e+01 4.83e+02  -0.9 4.35e-01    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  80  4.7363875e+01 1.84e+02 4.92e+02  -0.9 2.04e+00    -  1.00e+00 8.96e-01F  1
+  81  4.8676884e+01 9.43e+02 7.23e+02  -0.9 3.58e+00    -  1.00e+00 5.00e-01f  2
+  82  5.1591153e+01 8.75e+02 5.90e+02  -0.9 1.17e+00    -  1.00e+00 1.00e+00f  1
+  83  4.8681183e+01 2.85e+02 4.43e+02  -0.9 1.18e+00    -  1.00e+00 1.00e+00f  1
+  84  5.6694593e+01 8.77e+01 1.05e+03  -0.9 2.77e+00    -  1.00e+00 1.00e+00H  1
+  85  4.7022384e+01 5.98e+02 8.43e+02  -0.9 1.72e+00    -  8.41e-01 1.00e+00f  1
+  86  4.6534682e+01 4.05e+02 6.10e+02  -0.9 3.04e+00    -  1.00e+00 3.82e-01f  2
+  87  4.6697669e+01 3.31e+02 8.71e+02  -0.9 2.15e+00    -  1.00e+00 6.13e-01H  1
+  88  5.5510251e+01 6.21e+01 8.39e+02  -0.9 1.48e+00    -  1.00e+00 1.00e+00H  1
+  89  5.1080773e+01 2.67e+02 3.76e+02  -0.9 1.34e+00    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  90  4.7154192e+01 1.59e+02 4.78e+02  -0.9 9.78e-01    -  1.00e+00 1.00e+00f  1
+  91  4.8667998e+01 5.55e+02 4.87e+02  -0.9 1.45e+00    -  1.00e+00 1.00e+00h  1
+  92  4.8233019e+01 1.76e+02 2.66e+02  -0.9 1.03e+00    -  1.00e+00 1.00e+00h  1
+  93  5.0699278e+01 4.16e+01 1.38e+03  -0.9 1.61e+00    -  1.00e+00 1.00e+00H  1
+  94  4.6244591e+01 5.73e+01 9.83e+02  -0.9 1.68e+00    -  1.00e+00 1.00e+00f  1
+  95  4.9647483e+01 1.32e+02 1.41e+03  -0.9 4.77e-01    -  1.00e+00 1.00e+00h  1
+  96  4.7217965e+01 9.32e+00 1.44e+02  -0.9 3.20e-01    -  1.00e+00 1.00e+00f  1
+  97  4.6943842e+01 1.76e+01 7.91e+01  -0.9 2.57e-01    -  1.00e+00 1.00e+00h  1
+  98  4.3171419e+01 3.76e+00 7.85e+02  -1.2 1.41e+00    -  1.00e+00 1.00e+00H  1
+  99  4.8768207e+01 2.13e+03 1.92e+02  -0.9 1.94e+00    -  1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 100  4.8516223e+01 3.44e+02 9.97e+02  -1.0 2.18e+00    -  7.22e-01 1.00e+00h  1
+ 101  4.3857506e+01 2.53e+02 1.79e+02  -1.0 1.23e+00    -  1.00e+00 1.00e+00f  1
+ 102  3.9053187e+01 6.92e+02 4.92e+02  -1.7 1.32e+00    -  5.76e-01 1.00e+00f  1
+ 103  4.5420447e+01 4.97e+02 1.06e+03  -1.7 1.91e+00    -  6.40e-01 7.14e-01H  1
+ 104  3.6225409e+01 5.13e+01 2.12e+02  -1.7 1.03e+00    -  4.35e-01 1.00e+00f  1
+ 105  3.6016949e+01 4.82e+01 5.25e+02  -1.7 7.45e-01    -  1.00e+00 5.72e-01h  1
+ 106  3.5059894e+01 7.60e+01 1.56e+02  -1.7 3.15e-01    -  8.82e-01 1.00e+00h  1
+ 107  3.5305571e+01 1.73e+01 4.89e+02  -1.7 6.64e-01    -  8.49e-01 7.90e-01H  1
+ 108  3.3551212e+01 1.44e+02 1.90e+02  -1.7 4.51e-01    -  8.99e-01 1.00e+00f  1
+ 109  3.4582373e+01 1.15e+02 2.58e+02  -1.7 3.25e-01    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 110  3.3110610e+01 5.90e+01 1.53e+02  -1.7 2.52e-01    -  1.00e+00 1.00e+00h  1
+ 111  3.3951563e+01 5.29e+01 3.42e+02  -1.7 3.84e-01    -  1.00e+00 1.00e+00h  1
+ 112  3.3438808e+01 1.66e+00 1.11e+02  -1.7 3.54e-01    -  1.00e+00 1.00e+00H  1
+ 113  3.2164489e+01 2.50e+02 4.92e+02  -2.2 7.02e-01    -  1.00e+00 1.00e+00f  1
+ 114  3.0820148e+01 1.75e+02 1.94e+02  -2.3 1.34e+00    -  4.46e-01 3.51e-01h  1
+ 115  2.9022947e+01 1.79e+02 1.79e+02  -2.3 1.64e+00    -  1.35e-01 3.74e-01f  1
+ 116  2.7956994e+01 1.39e+02 3.29e+02  -2.3 5.16e-01    -  2.71e-01 1.00e+00f  1
+ 117  2.8547068e+01 1.48e+01 7.73e+02  -2.3 6.89e-01    -  3.51e-01 8.86e-01H  1
+ 118  2.6066470e+01 5.30e+01 2.57e+02  -2.3 3.68e-01    -  8.37e-01 7.20e-01f  1
+ 119  2.5495694e+01 2.48e+01 1.36e+02  -2.3 1.73e-01    -  1.00e+00 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 120  2.5152658e+01 2.81e+01 9.57e+01  -2.3 2.36e-01    -  1.00e+00 1.00e+00h  1
+ 121  2.4566480e+01 4.80e+01 1.38e+02  -2.4 6.89e-01    -  1.00e+00 3.93e-01h  2
+ 122  2.3594976e+01 2.24e+01 4.78e+02  -2.4 8.79e-01    -  5.06e-01 1.00e+00H  1
+ 123  2.3028092e+01 1.36e+01 2.24e+02  -2.4 1.07e+00    -  2.87e-01 1.98e-01f  3
+ 124  2.2217713e+01 6.32e+01 1.34e+02  -2.6 5.94e-01    -  5.38e-01 4.30e-01f  1
+ 125  2.1286040e+01 1.65e+02 1.52e+02  -2.6 5.26e-01    -  1.00e+00 7.77e-01h  1
+ 126  2.0877957e+01 1.67e+02 3.35e+02  -2.6 7.04e-01    -  5.05e-01 3.31e-01H  1
+ 127  2.0261142e+01 1.35e+01 1.84e+02  -2.6 4.43e-01    -  8.42e-01 1.00e+00H  1
+ 128  2.0253824e+01 2.63e+01 2.46e+02  -2.6 6.36e-01    -  7.43e-01 2.21e-01f  2
+ 129  1.9110339e+01 1.46e+02 9.07e+01  -3.0 4.79e-01    -  1.00e+00 7.40e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 130  1.8350193e+01 3.47e+02 3.03e+02  -3.1 1.03e+00    -  5.83e-01 2.79e-01h  1
+ 131  1.8012656e+01 3.48e+02 2.96e+02  -3.1 1.64e+00    -  4.92e-02 4.61e-02h  1
+ 132  1.7392506e+01 3.82e+02 1.81e+02  -3.1 1.68e+00    -  1.60e-01 1.17e-01f  1
+ 133  1.6788213e+01 5.90e+02 1.54e+02  -3.1 2.65e+00    -  2.53e-01 1.20e-01h  2
+ 134  1.6126720e+01 9.66e+02 1.59e+02  -3.1 2.69e+00    -  3.55e-01 1.96e-01h  2
+ 135  1.5937966e+01 9.24e+02 1.16e+02  -3.1 1.92e+00    -  1.68e-01 8.45e-02h  3
+ 136  1.5663521e+01 7.40e+02 2.00e+02  -3.1 8.10e-01    -  5.22e-01 3.46e-01h  1
+ 137  1.5150347e+01 8.24e+02 1.24e+02  -3.1 1.07e+00    -  9.04e-01 4.27e-01h  1
+ 138  1.4964026e+01 8.70e+02 2.15e+02  -3.1 8.95e-01    -  3.60e-01 2.91e-01h  1
+ 139  1.5133598e+01 7.13e+02 2.21e+02  -3.1 5.29e-01    -  3.02e-01 7.29e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 140  1.4905543e+01 2.51e+02 1.61e+02  -3.1 2.13e-01    -  3.63e-01 6.53e-01h  1
+ 141  1.4844884e+01 1.12e+02 2.12e+02  -3.1 1.54e-01    -  1.31e-01 5.74e-01h  1
+ 142  1.4684822e+01 2.43e+01 2.72e+01  -3.1 8.26e-02    -  1.00e+00 8.03e-01f  1
+ 143  1.4594506e+01 1.94e+01 3.77e+01  -3.1 9.83e-02    -  8.24e-01 1.00e+00h  1
+ 144  1.4532861e+01 4.57e+01 7.42e+01  -3.1 1.05e+00    -  1.00e+00 1.27e-01h  3
+ 145  1.4277384e+01 7.22e+02 7.56e+01  -3.2 1.40e+00    -  5.12e-01 6.16e-01h  1
+ 146  1.4026725e+01 9.89e+02 1.12e+02  -3.2 4.46e+00    -  2.45e-01 1.69e-01h  2
+ 147  1.3881678e+01 1.20e+03 1.23e+02  -3.2 5.73e+00    -  2.18e-01 1.26e-01h  1
+ 148  1.3709507e+01 1.20e+03 9.83e+01  -3.2 6.06e+00    -  1.34e-01 9.11e-02h  2
+ 149  1.3619734e+01 1.20e+03 7.20e+01  -3.2 1.22e+01    -  1.49e-01 3.21e-02h  3
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 150  1.3495630e+01 8.25e+02 1.07e+02  -3.2 3.91e-01    -  4.03e-01 3.18e-01h  1
+ 151  1.3324177e+01 1.52e+02 1.04e+02  -3.2 1.78e-01    -  2.68e-01 8.16e-01h  1
+ 152  1.3267049e+01 1.20e+02 6.93e+01  -3.2 3.60e-01    -  4.77e-01 2.28e-01f  1
+ 153  1.3149062e+01 3.79e+01 8.74e+01  -3.2 2.76e-01    -  6.08e-01 1.00e+00h  1
+ 154  1.3188076e+01 2.50e-01 1.49e+02  -3.2 1.79e-01    -  3.85e-01 1.00e+00H  1
+ 155  1.2902132e+01 9.80e+00 5.16e+01  -3.3 2.36e-01    -  1.00e+00 6.95e-01f  1
+ 156  1.3180230e+01 7.39e+00 8.76e+01  -2.9 4.30e-01    -  6.90e-01 2.94e-01h  2
+ 157  1.3074798e+01 5.06e+00 4.53e+01  -3.1 1.85e-01    -  1.00e+00 5.30e-01h  1
+ 158  1.2989605e+01 1.83e+01 1.22e+02  -3.1 1.72e-01    -  7.40e-01 1.00e+00f  1
+ 159  1.3148852e+01 3.21e+01 1.12e+02  -3.1 2.07e-01    -  7.82e-01 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 160  1.3390951e+01 1.76e+01 1.24e+02  -3.1 4.05e-01    -  6.33e-01 9.20e-01h  1
+ 161  1.3337771e+01 2.61e+01 9.23e+01  -3.1 3.62e-01    -  4.56e-01 2.35e-01h  2
+ 162  1.3220902e+01 2.26e+01 4.15e+01  -3.1 1.41e-01    -  7.20e-01 5.78e-01h  1
+ 163  1.3226869e+01 9.19e+00 5.15e+01  -3.1 2.49e-01    -  1.00e+00 8.57e-01h  1
+ 164  1.3462170e+01 2.49e+00 1.20e+02  -3.1 5.76e-01    -  9.00e-01 1.00e+00H  1
+ 165  1.3249590e+01 1.74e+02 9.14e+01  -3.1 4.32e-01    -  4.21e-01 5.83e-01f  1
+ 166  1.3157476e+01 1.54e+02 4.08e+01  -3.1 3.27e-01    -  3.11e-01 2.13e-01h  1
+ 167  1.3122350e+01 5.43e+01 3.98e+01  -3.1 1.66e-01    -  1.00e+00 1.00e+00h  1
+ 168  1.3106118e+01 5.38e+01 4.20e+01  -3.1 7.31e-01    -  8.73e-01 1.15e-01h  3
+ 169  1.2560955e+01 1.58e+02 3.14e+02  -3.1 8.13e-01    -  9.07e-01 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 170  1.2559557e+01 1.51e+02 2.28e+02  -3.1 3.60e+00    -  2.67e-01 5.22e-02h  3
+ 171  1.2431247e+01 1.20e+02 1.76e+02  -3.1 3.04e-01    -  5.09e-01 7.33e-01h  1
+ 172  1.2384856e+01 7.88e+01 2.84e+02  -3.1 7.73e-01    -  2.86e-01 3.59e-01h  1
+ 173  1.1982935e+01 9.11e+01 2.66e+02  -3.1 3.53e-01    -  1.74e-01 7.79e-01h  1
+ 174  1.1813183e+01 7.32e+01 1.94e+02  -3.1 1.24e+00    -  3.53e-01 2.06e-01h  1
+ 175  1.1703922e+01 5.61e+01 1.01e+02  -3.1 8.47e-01    -  2.45e-01 2.81e-01f  1
+ 176  1.1743316e+01 6.30e+00 2.46e+02  -3.1 4.42e-01    -  1.00e+00 1.00e+00H  1
+ 177  1.1910305e+01 2.50e+01 9.00e+01  -2.7 2.30e-01    -  1.00e+00 1.00e+00f  1
+ 178  1.2309164e+01 3.68e+01 1.50e+02  -2.8 2.24e-01    -  7.07e-01 6.53e-01h  1
+ 179  1.2529693e+01 4.58e+01 1.51e+02  -2.8 2.01e-01    -  7.22e-01 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 180  1.3084503e+01 4.21e-01 1.57e+02  -2.8 3.38e-01    -  5.16e-01 1.00e+00H  1
+ 181  1.2182028e+01 1.36e+02 7.84e+01  -3.1 2.14e-01    -  1.00e+00 1.00e+00f  1
+ 182  1.1941950e+01 1.20e+02 1.61e+02  -3.2 3.50e-01    -  2.91e-01 4.03e-01H  1
+ 183  1.1482243e+01 1.79e+01 1.34e+02  -3.2 1.40e-01    -  2.70e-01 1.00e+00h  1
+ 184  1.1056060e+01 1.06e+01 1.03e+02  -3.4 1.62e-01    -  8.90e-01 8.02e-01h  1
+ 185  1.0650112e+01 4.38e+01 1.20e+02  -3.5 3.17e-01    -  1.00e+00 4.63e-01h  1
+ 186  1.0105102e+01 4.14e+01 8.44e+01  -3.6 2.23e-01    -  2.42e-01 4.04e-01h  1
+ 187  1.0345729e+01 8.12e+01 4.49e+01  -3.1 8.88e-01    -  5.39e-01 2.39e-01f  1
+ 188  1.0331470e+01 7.48e+01 1.11e+02  -3.4 6.04e-01    -  5.84e-01 3.87e-01h  1
+ 189  1.0223500e+01 3.59e+00 1.02e+02  -3.4 1.26e-01    -  7.78e-01 1.00e+00h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 190  1.0082717e+01 2.59e+00 3.17e+01  -3.5 1.25e-01    -  1.00e+00 4.40e-01h  1
+ 191  9.7635722e+00 2.90e+01 9.98e+01  -3.7 3.74e-01    -  1.00e+00 4.15e-01f  1
+ 192  9.9044444e+00 2.38e+01 9.65e+01  -3.4 5.83e-01    -  7.52e-01 8.93e-01h  1
+ 193  9.5465697e+00 4.08e+01 2.96e+01  -9.5 5.76e-01    -  2.94e-01 2.21e-01h  1
+ 194  9.3690387e+00 9.51e+01 8.26e+01  -4.8 7.10e-01    -  2.99e-01 1.59e-01h  1
+ 195  9.2118052e+00 6.50e+01 6.21e+01  -3.8 1.63e-01    -  1.63e-01 3.19e-01h  1
+ 196  8.9896153e+00 6.82e+01 9.07e+01  -5.9 6.25e-01    -  3.37e-01 2.67e-01h  1
+ 197  8.8634953e+00 5.33e+01 5.23e+01  -4.1 1.55e-01    -  9.08e-01 3.11e-01h  1
+ 198  8.8056926e+00 5.15e+01 3.57e+01  -4.8 7.34e-01    -  7.65e-01 1.15e-01h  1
+ 199  8.8116312e+00 5.13e+01 7.42e+01  -4.1 1.57e+00    -  2.96e-01 2.15e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 200  8.7416325e+00 4.26e+01 5.25e+01  -4.3 4.52e-01    -  9.00e-01 1.86e-01h  1
+ 201  8.7522322e+00 4.15e+01 4.75e+01  -3.9 6.70e-01    -  2.05e-01 3.45e-01h  1
+ 202  8.6870517e+00 3.62e+01 2.99e+01  -4.2 2.86e-01    -  5.53e-01 1.86e-01h  1
+ 203  1.0955250e+01 1.41e+03 2.18e+02  -3.4 1.20e+00    -  2.50e-01 7.57e-01f  1
+ 204  1.1049925e+01 1.17e+03 1.84e+02  -3.8 2.68e+00    -  1.00e-01 2.39e-01h  1
+ 205  1.0413808e+01 1.01e+03 1.27e+02  -3.8 6.29e-01    -  1.86e-01 1.48e-01h  1
+ 206  9.8646870e+00 9.15e+02 1.21e+02  -3.8 1.91e+00    -  1.04e-01 1.00e-01h  1
+ 207  9.3318176e+00 6.78e+02 1.22e+02  -3.8 6.93e-01    -  2.37e-01 3.17e-01h  1
+ 208  9.1736941e+00 6.22e+02 8.26e+01  -3.8 9.17e-01    -  1.36e-01 1.85e-01h  1
+ 209  8.9221024e+00 3.41e+02 6.28e+01  -3.8 2.22e-01    -  3.73e-01 4.63e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 210  8.8627980e+00 2.37e+02 5.79e+01  -3.8 3.46e-01    -  1.66e-01 3.14e-01h  1
+ 211  8.7978870e+00 9.67e+01 1.68e+01  -3.8 9.65e-02    -  9.88e-01 6.09e-01h  1
+ 212  8.7784856e+00 1.28e+01 4.76e+01  -3.8 7.59e-02    -  7.62e-01 1.00e+00h  1
+ 213  8.6474966e+00 1.18e+01 1.87e+01  -3.9 1.18e-01    -  1.00e+00 9.39e-01h  1
+ 214  9.6446249e+00 3.44e+02 1.13e+02  -3.6 3.72e-01    -  7.28e-01 1.00e+00f  1
+ 215  9.8015591e+00 2.52e+02 1.52e+02  -3.7 7.48e-01    -  5.84e-01 4.66e-01h  1
+ 216  9.5043996e+00 2.06e+02 1.10e+02  -3.7 3.50e-01    -  4.44e-01 2.05e-01h  1
+ 217  9.1496872e+00 1.44e+02 1.44e+02  -3.7 4.27e-01    -  3.23e-01 4.57e-01h  1
+ 218  9.0373899e+00 1.48e+02 8.26e+01  -3.7 2.80e-01    -  8.30e-02 5.80e-01h  1
+ 219  8.9358736e+00 9.73e+01 4.52e+01  -3.7 1.15e-01    -  6.49e-01 4.27e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 220  8.9110640e+00 3.35e+01 2.89e+01  -3.7 5.06e-02    -  6.92e-01 8.31e-01h  1
+ 221  8.9115126e+00 1.51e+00 1.09e+01  -3.7 1.55e-02    -  1.00e+00 1.00e+00h  1
+ 222  8.8077150e+00 2.80e+01 4.57e+01  -4.2 2.70e-01    -  5.27e-01 4.18e-01h  1
+ 223  8.7787892e+00 2.64e+01 4.04e+01  -4.0 3.92e-01    -  9.53e-01 5.72e-02h  1
+ 224  8.7232752e+00 1.28e+02 5.14e+01  -4.0 2.19e+00    -  2.91e-01 1.04e-01h  2
+
+Number of Iterations....: 224
+
+                                   (scaled)                 (unscaled)
+Objective...............:   6.5821070245063735e+00    8.7232751592654605e+00
+Dual infeasibility......:   5.1365515092565907e+01    6.8074785198962758e+01
+Constraint violation....:   1.1452236789484085e-01    1.2794867837253889e+02
+Complementarity.........:   3.0132001109888472e-04    3.9933980988490818e-04
+Overall NLP error.......:   1.1452236789484085e-01    1.2794867837253889e+02
+
+
+Number of objective function evaluations             = 322
+Number of objective gradient evaluations             = 225
+Number of equality constraint evaluations            = 322
+Number of inequality constraint evaluations          = 0
+Number of equality constraint Jacobian evaluations   = 225
+Number of inequality constraint Jacobian evaluations = 0
+Number of Lagrangian Hessian evaluations             = 0
+Total CPU secs in IPOPT (w/o function evaluations)   =   1594.345
+Total CPU secs in NLP function evaluations           =  25321.441
+
+EXIT: Stopping optimization at current point as requested by user.
+               t_proc [s]   t_wall [s]    n_eval
+callback_fun         0.09       0.0853       224
+         nlp     2.69e+04     2.69e+04         1
+       nlp_f         28.6         28.6       322
+       nlp_g         24.2         24.2       322
+  nlp_grad_f     5.66e+03     5.66e+03       226
+   nlp_jac_g     1.97e+04     1.97e+04       226
+
+Breakdown of objective (including weights):
+  state_tracking: 0.70754
+  control_effort: 4.60499
+  contact: 3.17727
+  orientation_tracking: 0.233468
+
+Active or violated continuous variable bounds
+L and U indicate which bound is active; '*' indicates a bound is violated. 
+The case of lower==upper==value is ignored.
+
+State bounds: no bounds active or violated
+
+Control bounds: no bounds active or violated
+
+Multiplier bounds: no bounds active or violated
+
+Derivative bounds: no bounds active or violated
+
+Active or violated parameter bounds
+L and U indicate which bound is active; '*' indicates a bound is violated. 
+The case of lower==upper==value is ignored.
+
+Time bounds: no bounds active or violated
+
+Parameter bounds: no bounds active or violated
+
+Total number of constraints: 8850.
+
+Differential equation defects:
+  L2 norm across mesh, max abs value (L1 norm), time of max abs
+/jointset/ground_pelvis/pelvis_tilt/value        4.19e-09       2.00e-09       1.393020
+/jointset/ground_pelvis/pelvis_list/value        1.15e-09       5.91e-10       1.378560
+/jointset/ground_pelvis/pelvis_rotation/value        3.28e-09       1.22e-09       1.313490
+/jointset/ground_pelvis/pelvis_tx/value        1.25e-13       4.32e-14       1.226730
+/jointset/ground_pelvis/pelvis_ty/value        6.30e-09       5.63e-09       1.226730
+/jointset/ground_pelvis/pelvis_tz/value        1.76e-13       5.12e-14       1.291800
+/jointset/hip_r/hip_flexion_r/value        3.05e-09       2.76e-09       1.226730
+/jointset/hip_r/hip_adduction_r/value        9.62e-10       5.20e-10       1.393020
+/jointset/hip_r/hip_rotation_r/value        6.99e-10       6.00e-10       1.226730
+/jointset/hip_l/hip_flexion_l/value        6.86e-10       3.00e-10       1.393020
+/jointset/hip_l/hip_adduction_l/value        1.13e-09       5.21e-10       1.378560
+/jointset/hip_l/hip_rotation_l/value        1.45e-10       1.00e-10       1.320720
+/jointset/back/lumbar_extension/value        1.24e-09       5.66e-10       1.335180
+/jointset/back/lumbar_bending/value        2.96e-09       1.56e-09       1.378560
+/jointset/back/lumbar_rotation/value        2.36e-11       1.12e-11       1.393020
+/jointset/walker_knee_r/knee_angle_r/value        1.00e-09       4.43e-10       1.219500
+/jointset/patellofemoral_r/knee_angle_r_beta/value        1.45e-10       4.43e-11       1.270110
+/jointset/walker_knee_l/knee_angle_l/value        1.26e-10       8.25e-11       1.393020
+/jointset/patellofemoral_l/knee_angle_l_beta/value        3.63e-11       1.39e-11       1.306260
+/jointset/ankle_r/ankle_angle_r/value        9.62e-10       8.52e-10       1.226730
+/jointset/ankle_l/ankle_angle_l/value        1.16e-11       5.24e-12       1.342410
+/jointset/ground_pelvis/pelvis_tilt/speed        6.74e-04       3.31e-04       1.241190
+/jointset/ground_pelvis/pelvis_list/speed        1.01e-03       3.24e-04       1.248420
+/jointset/ground_pelvis/pelvis_rotation/speed        9.77e-04       4.29e-04       1.219500
+/jointset/ground_pelvis/pelvis_tx/speed        4.03e-05       1.59e-05       1.291800
+/jointset/ground_pelvis/pelvis_ty/speed        9.25e-05       4.98e-05       1.219500
+/jointset/ground_pelvis/pelvis_tz/speed        2.09e-04       1.54e-04       1.226730
+/jointset/hip_r/hip_flexion_r/speed        2.79e-03       1.70e-03       1.226730
+/jointset/hip_r/hip_adduction_r/speed        3.29e-03       2.37e-03       1.226730
+/jointset/hip_r/hip_rotation_r/speed        2.92e-03       1.86e-03       1.226730
+/jointset/hip_l/hip_flexion_l/speed        1.28e-03       7.33e-04       1.393020
+/jointset/hip_l/hip_adduction_l/speed        1.92e-03       5.73e-04       1.248420
+/jointset/hip_l/hip_rotation_l/speed        1.03e-03       5.30e-04       1.219500
+/jointset/back/lumbar_extension/speed        7.68e-04       3.40e-04       1.226730
+/jointset/back/lumbar_bending/speed        9.11e-04       4.12e-04       1.226730
+/jointset/back/lumbar_rotation/speed        1.05e-03       7.08e-04       1.226730
+/jointset/walker_knee_r/knee_angle_r/speed        6.07e-03       3.88e-03       1.226730
+/jointset/patellofemoral_r/knee_angle_r_beta/speed        6.25e-01       4.22e-01       1.255650
+/jointset/walker_knee_l/knee_angle_l/speed        9.12e-04       7.42e-04       1.393020
+/jointset/patellofemoral_l/knee_angle_l_beta/speed        2.65e-01       1.13e-01       1.364100
+/jointset/ankle_r/ankle_angle_r/speed        2.32e-02       8.09e-03       1.291800
+/jointset/ankle_l/ankle_angle_l/speed        1.08e-03       6.02e-04       1.393020
+/forceset/addbrev_r/activation        8.21e-05       7.96e-06       1.385790
+/forceset/addlong_r/activation        1.43e-05       8.62e-06       1.342410
+/forceset/addmagDist_r/activation        3.00e-05       1.45e-05       1.233960
+/forceset/addmagIsch_r/activation        3.72e-05       1.26e-05       1.226730
+/forceset/addmagMid_r/activation        2.20e-05       6.66e-06       1.349640
+/forceset/addmagProx_r/activation        2.23e-05       9.80e-06       1.241190
+/forceset/bflh_r/activation        4.80e-05       2.58e-05       1.327950
+/forceset/bfsh_r/activation        1.22e-05       6.52e-06       1.299030
+/forceset/edl_r/activation        1.95e-05       7.40e-06       1.291800
+/forceset/ehl_r/activation        3.44e-04       8.40e-06       1.291800
+/forceset/fdl_r/activation        1.45e-05       7.64e-06       1.306260
+/forceset/fhl_r/activation        2.43e-05       1.21e-05       1.306260
+/forceset/gaslat_r/activation        2.34e-05       1.27e-05       1.270110
+/forceset/gasmed_r/activation        5.18e-05       3.32e-05       1.270110
+/forceset/glmax1_r/activation        1.96e-05       8.11e-06       1.291800
+/forceset/glmax2_r/activation        3.04e-05       1.76e-05       1.284570
+/forceset/glmax3_r/activation        3.81e-05       1.42e-05       1.284570
+/forceset/glmed1_r/activation        3.55e-05       1.37e-05       1.248420
+/forceset/glmed2_r/activation        1.88e-05       8.41e-06       1.219500
+/forceset/glmed3_r/activation        2.36e-05       1.04e-05       1.291800
+/forceset/glmin1_r/activation        2.28e-05       6.96e-06       1.313490
+/forceset/glmin2_r/activation        1.71e-05       1.03e-05       1.393020
+/forceset/glmin3_r/activation        1.52e-05       7.13e-06       1.313490
+/forceset/grac_r/activation        1.64e-05       8.66e-06       1.299030
+/forceset/iliacus_r/activation        1.43e-05       1.15e-05       1.393020
+/forceset/perbrev_r/activation        1.62e-05       8.41e-06       1.306260
+/forceset/perlong_r/activation        2.20e-05       1.06e-05       1.306260
+/forceset/piri_r/activation        2.94e-05       1.54e-05       1.219500
+/forceset/psoas_r/activation        1.14e-05       7.08e-06       1.393020
+/forceset/recfem_r/activation        3.77e-05       2.73e-05       1.291800
+/forceset/sart_r/activation        1.21e-05       4.73e-06       1.226730
+/forceset/semimem_r/activation        1.15e-04       9.10e-05       1.284570
+/forceset/semiten_r/activation        3.08e-05       1.63e-05       1.233960
+/forceset/soleus_r/activation        9.78e-05       7.82e-05       1.226730
+/forceset/tfl_r/activation        8.50e-07       7.35e-07       1.393020
+/forceset/tibant_r/activation        3.39e-05       1.40e-05       1.226730
+/forceset/tibpost_r/activation        2.49e-05       1.25e-05       1.306260
+/forceset/vasint_r/activation        2.46e-05       8.83e-06       1.270110
+/forceset/vaslat_r/activation        1.14e-04       8.61e-05       1.233960
+/forceset/vasmed_r/activation        5.70e-05       3.47e-05       1.241190
+/forceset/addbrev_l/activation        2.26e-05       9.47e-06       1.255650
+/forceset/addlong_l/activation        2.91e-05       1.38e-05       1.385790
+/forceset/addmagDist_l/activation        4.07e-05       3.41e-05       1.393020
+/forceset/addmagIsch_l/activation        5.99e-05       4.98e-05       1.393020
+/forceset/addmagMid_l/activation        2.64e-05       1.53e-05       1.393020
+/forceset/addmagProx_l/activation        1.89e-05       6.57e-06       1.255650
+/forceset/bflh_l/activation        3.64e-05       2.04e-05       1.320720
+/forceset/bfsh_l/activation        2.13e-05       1.74e-05       1.378560
+/forceset/edl_l/activation        1.22e-05       7.20e-06       1.378560
+/forceset/ehl_l/activation        4.47e-05       1.15e-05       1.385790
+/forceset/fdl_l/activation        2.00e-06       1.92e-06       1.393020
+/forceset/fhl_l/activation        7.17e-06       6.37e-06       1.393020
+/forceset/gaslat_l/activation        1.43e-05       1.04e-05       1.378560
+/forceset/gasmed_l/activation        1.82e-05       1.37e-05       1.378560
+/forceset/glmax1_l/activation        3.16e-05       2.10e-05       1.226730
+/forceset/glmax2_l/activation        4.14e-05       2.78e-05       1.226730
+/forceset/glmax3_l/activation        2.77e-05       2.03e-05       1.393020
+/forceset/glmed1_l/activation        1.44e-05       6.24e-06       1.262880
+/forceset/glmed2_l/activation        2.03e-05       9.27e-06       1.226730
+/forceset/glmed3_l/activation        3.09e-05       1.68e-05       1.306260
+/forceset/glmin1_l/activation        1.35e-05       4.91e-06       1.393020
+/forceset/glmin2_l/activation        1.63e-05       5.71e-06       1.393020
+/forceset/glmin3_l/activation        1.64e-05       5.84e-06       1.335180
+/forceset/grac_l/activation        1.03e-05       5.78e-06       1.378560
+/forceset/iliacus_l/activation        2.45e-05       1.20e-05       1.241190
+/forceset/perbrev_l/activation        4.57e-06       3.79e-06       1.393020
+/forceset/perlong_l/activation        8.53e-06       6.10e-06       1.393020
+/forceset/piri_l/activation        3.51e-05       1.65e-05       1.349640
+/forceset/psoas_l/activation        2.52e-05       9.93e-06       1.241190
+/forceset/recfem_l/activation        3.07e-05       2.22e-05       1.378560
+/forceset/sart_l/activation        2.06e-05       1.36e-05       1.378560
+/forceset/semimem_l/activation        1.88e-05       4.76e-06       1.313490
+/forceset/semiten_l/activation        1.90e-05       1.36e-05       1.393020
+/forceset/soleus_l/activation        7.52e-06       3.61e-06       1.385790
+/forceset/tfl_l/activation        8.64e-07       7.43e-07       1.393020
+/forceset/tibant_l/activation        2.72e-05       2.05e-05       1.378560
+/forceset/tibpost_l/activation        5.96e-06       5.65e-06       1.393020
+/forceset/vasint_l/activation        2.07e-05       1.03e-05       1.291800
+/forceset/vaslat_l/activation        1.16e-05       4.95e-06       1.349640
+/forceset/vasmed_l/activation        9.85e-06       5.53e-06       1.378560
+
+Kinematic constraints:
+  L2 norm across mesh, max abs value (L1 norm), time of max abs
+00:  cid21_p0        1.65e-09       1.54e-09       1.226730
+01:  cid22_p0        4.12e-10       3.30e-10       1.219500
+02: cid21_p0d        3.35e-10       1.61e-10       1.349640
+03: cid22_p0d        2.91e-10       1.96e-10       1.378560
+04:cid21_p0dd        2.75e+02       1.28e+02       1.255650
+05:cid22_p0dd        1.59e+02       4.16e+01       1.241190
+Kinematic constraint values at each mesh point:
+      time          0          1          2          3          4          5  
+000   1.219500  -7.73e-11   3.30e-10  -4.95e-11   6.79e-13  -3.67e+00   2.39e+01  
+001   1.23e+00   1.54e-09   2.24e-11   1.55e-11  -7.29e-12  -6.64e-01   3.48e+01  
+002   1.23e+00  -3.47e-10   6.07e-12   1.60e-10   5.83e-12  -7.85e+01   3.61e+01  
+003   1.24e+00  -2.01e-12  -6.91e-12   1.27e-10  -1.93e-12   1.17e+01   4.16e+01  
+004   1.25e+00  -1.63e-11  -7.50e-13   5.41e-11   2.24e-13   7.78e+01   3.45e+01  
+005   1.26e+00  -1.62e-10  -1.50e-11   3.51e-12   4.64e-13   1.28e+02   3.62e+01  
+006   1.26e+00   6.45e-11  -2.90e-11  -1.17e-11  -1.06e-12  -1.05e+02   4.02e+01  
+007   1.27e+00  -9.96e-11   1.20e-11   2.69e-11  -9.12e-13  -1.05e+02   3.35e+01  
+008   1.28e+00   1.52e-10  -2.15e-11   9.05e-13  -2.70e-12  -9.56e+01   3.04e+01  
+009   1.28e+00   1.07e-10   1.02e-11   2.44e-11   7.58e-13   9.54e+01   3.55e+01  
+010   1.29e+00  -1.79e-10  -2.46e-11  -1.23e-10   1.46e-11   4.58e+01   3.17e+01  
+011   1.30e+00  -2.36e-10  -7.70e-12  -1.45e-11   4.33e-13   1.15e+01   3.16e+01  
+012   1.31e+00  -1.60e-10   1.80e-11   7.83e-11  -3.69e-12  -8.35e+00   2.78e+01  
+013   1.31e+00  -4.07e-11  -2.81e-11  -5.85e-11   4.44e-11  -2.29e+00   3.74e+01  
+014   1.32e+00   4.13e-11  -8.63e-12  -3.63e-12   2.80e-12  -1.61e+00   1.00e+01  
+015   1.33e+00   2.44e-11   5.37e-11  -1.99e-12  -6.06e-12  -2.90e+00   2.36e+01  
+016   1.34e+00  -1.24e-12  -4.60e-12   6.86e-13  -7.12e-12  -2.74e+00   1.60e+01  
+017   1.34e+00   3.82e-11   1.13e-12  -1.61e-12  -1.18e-12  -4.52e+01   3.45e+00  
+018   1.35e+00  -1.93e-11   7.52e-11   1.61e-10   3.63e-11  -1.85e+01   1.40e+01  
+019   1.36e+00  -1.66e-11  -2.48e-11   6.11e-11  -6.04e-11  -5.70e+00   3.48e+01  
+020   1.36e+00  -1.70e-12   3.22e-11  -8.25e-11  -1.57e-10  -2.27e+00  -4.27e+00  
+021   1.37e+00   2.08e-12   2.92e-11  -3.98e-11  -9.23e-11   1.25e+01  -6.68e+01  
+022   1.38e+00  -3.23e-12  -1.64e-11   1.40e-12   1.96e-10   1.16e+01   3.14e+01  
+023   1.39e+00  -3.92e-12  -1.17e-11  -1.64e-12  -7.35e-11   1.30e+01  -3.09e+01  
+024   1.39e+00  -2.90e-11  -1.03e-11  -1.18e-11   3.63e-12   1.98e+01  -1.17e+01  
+025   1.40e+00   1.29e-10  -2.12e-10  -5.98e-13  -6.76e-12   2.61e+01  -4.54e+00  
+
+Path constraints: none
+-------------------------------------------------------------------------------
+Elapsed real time: 26931 second(s) (7 hour(s), 28 minute(s), 51 second(s)).
+28/05/2020 7:33:04 PM
+MocoCasADiSolver did NOT succeed:
+  User_Requested_Stop
+===============================================================================
