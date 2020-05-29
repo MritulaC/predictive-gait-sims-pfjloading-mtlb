@@ -1,0 +1,143 @@
+Preparing to run AnalyzeTool.
+AbstractTool bodyKinematics loading model '..\Static\MocoScaledModel_StrengthScaled.osim'
+Loaded model model from file ..\Static\MocoScaledModel_StrengthScaled.osim
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+No external loads will be applied (external loads file not specified).
+
+Loading coordinates from file coordinates.sto.
+Storage: read data file =coordinates.sto (nr=189 nc=26)
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.408084182585867e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.6530190105612519e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7310396671632589e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7520050299424383e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7343467551000913e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.6652969669905815e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.4651034607737756e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 3.1990166071693693e-09 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.3608857152291876e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7642068250722787e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.8646541644073977e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.9067760259616762e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.926540793562026e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.9340289814095968e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.932260262904606e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.9207686996480788e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.8951693991908769e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.8417274816329154e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7077497638240402e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.005532723752367e-08 required: 1e-10.
+Found 189 state vectors with time stamps ranging from 1.1895 to 1.9415.
+Executing the analyses from 1.2175 to 1.5775...
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.408084182585867e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.6530190105612519e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7310396671632589e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7520050299424383e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.7343467551000913e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.6652969669905815e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 1.4651034607737756e-08 required: 1e-10.
+AssemblySolver::track() attempt Failed: SimTK Exception thrown at Assembler.cpp:973:
+  Method Assembler::track() failed because:
+Unable to achieve required assembly error tolerance.
+Assembly error tolerance achieved: 3.1990166071693693e-09 required: 1e-10.
+Printing results of investigation bodyKinematics to ./.
