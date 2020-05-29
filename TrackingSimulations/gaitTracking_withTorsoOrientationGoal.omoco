@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSimDocument Version="40000">
-	<MocoStudy name="gaitTracking">
+	<MocoStudy name="gaitTracking_withTorsoOrientation">
 		<!--The optimal control problem to solve.-->
 		<MocoProblem name="problem">
 			<!--List of 1 or more MocoPhases.-->
@@ -11206,6 +11206,19 @@
 						<!--Experimental contact force data as an ExternalLoads XML file.-->
 						<external_loads_file>E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Gait\Jog05_grf.xml</external_loads_file>
 					</MocoContactTrackingGoal>
+					<MocoOrientationTrackingGoal name="orientation_tracking">
+						<!--In cost mode, the goal is multiplied by this weight (default: 1).-->
+						<weight>20</weight>
+						<!--Trajectories of model state variables from which tracked rotation data is computed. Column labels should be model state paths, e.g., '/jointset/ankle_angle_r/value'-->
+						<TableProcessor name="states_reference">
+							<!--File path to a TimeSeriesTable.-->
+							<filepath>E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\ExpData\Gait\bodyKinematics_StatesReporter_states.sto</filepath>
+						</TableProcessor>
+						<!--Path to file (.sto, .csv, ...) containing orientation reference data to track. Column labels should be paths to frames in the model, e.g. '/bodyset/torso'.-->
+						<rotation_reference_file></rotation_reference_file>
+						<!--The frames in the model that this cost term will track. The names set here must correspond to Components that derive from class Frame.-->
+						<frame_paths>/bodyset/torso</frame_paths>
+					</MocoOrientationTrackingGoal>
 				</goals>
 			</MocoPhase>
 		</MocoProblem>
@@ -11216,7 +11229,7 @@
 			<!--Maximum number of iterations in the optimization solver (-1 for solver's default).-->
 			<optim_max_iterations>1000</optim_max_iterations>
 			<!--A MocoTrajectory file storing an initial guess.-->
-			<guess_file></guess_file>
+			<guess_file>E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\TrackingSimulations\gaitTracking_solution.sto</guess_file>
 		</MocoCasADiSolver>
 	</MocoStudy>
 </OpenSimDocument>

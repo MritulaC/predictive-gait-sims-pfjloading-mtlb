@@ -1,0 +1,77 @@
+Preparing to run AnalyzeTool.
+AbstractTool bodyKinematics_trackingSimulation_noOrientationGoal loading model '..\ExpData\Static\MocoScaledModel_StrengthScaled.osim'
+Loaded model model from file ..\ExpData\Static\MocoScaledModel_StrengthScaled.osim
+Couldn't find file 'r_pelvis.vtp'.
+Couldn't find file 'l_pelvis.vtp'.
+Couldn't find file 'sacrum.vtp'.
+Couldn't find file 'r_femur.vtp'.
+Couldn't find file 'r_tibia.vtp'.
+Couldn't find file 'r_fibula.vtp'.
+Couldn't find file 'r_patella.vtp'.
+Couldn't find file 'r_talus.vtp'.
+Couldn't find file 'r_foot.vtp'.
+Couldn't find file 'r_bofoot.vtp'.
+Couldn't find file 'l_femur.vtp'.
+Couldn't find file 'l_tibia.vtp'.
+Couldn't find file 'l_fibula.vtp'.
+Couldn't find file 'l_patella.vtp'.
+Couldn't find file 'l_talus.vtp'.
+Couldn't find file 'l_foot.vtp'.
+Couldn't find file 'l_bofoot.vtp'.
+Couldn't find file 'hat_spine.vtp'.
+Couldn't find file 'hat_jaw.vtp'.
+Couldn't find file 'hat_skull.vtp'.
+Couldn't find file 'hat_ribs_scap.vtp'.
+No external loads will be applied (external loads file not specified).
+
+Loading states from file gaitTracking_solution.sto.
+Number of columns does not match in formStateStorage. Found 225 Expected  168.
+Column /forceset/addlong_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/addmagIsch_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/bflh_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/edl_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/ehl_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/fdl_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/fhl_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/gaslat_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/gasmed_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/glmin3_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/perbrev_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/perlong_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/piri_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/recfem_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/semimem_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/semiten_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/soleus_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tfl_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tibant_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tibpost_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vasint_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vaslat_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vasmed_r/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/addlong_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/addmagIsch_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/bflh_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/edl_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/ehl_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/fdl_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/fhl_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/gaslat_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/gasmed_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/glmin3_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/perbrev_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/perlong_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/piri_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/recfem_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/semimem_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/semiten_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/soleus_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tfl_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tibant_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/tibpost_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vasint_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vaslat_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Column /forceset/vasmed_l/fiber_length not found by Model::formStateStorage(). Assuming its default value of 0.1
+Found 51 state vectors with time stamps ranging from 1.2195 to 1.581.
+Executing the analyses from 1.2195 to 1.581...
+Printing results of investigation bodyKinematics_trackingSimulation_noOrientationGoal to ./.
