@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<ScaleSet name="ScaleSet">
+		<objects>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>ground</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.064 1.064 0.854604</scales>
+				<segment>pelvis</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.848793 1.01106 0.848793</scales>
+				<segment>femur_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.80886 0.995396 0.80886</scales>
+				<segment>tibia_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.01106 1.01106 1.01106</scales>
+				<segment>patella_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.80886 0.995396 0.80886</scales>
+				<segment>talus_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.900786 0.900786 0.798461</scales>
+				<segment>calcn_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.900786 0.900786 0.798461</scales>
+				<segment>toes_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.891811 0.965974 0.891811</scales>
+				<segment>femur_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.841926 1.06953 0.841926</scales>
+				<segment>tibia_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.965974 0.965974 0.965974</scales>
+				<segment>patella_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.841926 1.06953 0.841926</scales>
+				<segment>talus_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.891072 0.891072 0.719991</scales>
+				<segment>calcn_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.891072 0.891072 0.719991</scales>
+				<segment>toes_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 0.924954 1.04325 1.01793</scales>
+				<segment>torso</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>ground_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>pelvis_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>pelvis_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>tibia_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>patella_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>tibia_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>talus_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>talus_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>calcn_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>calcn_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>toes_r_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>pelvis_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>tibia_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>femur_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>patella_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>tibia_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>talus_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>talus_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>calcn_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>calcn_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>toes_l_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>pelvis_offset</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>torso_offset</segment>
+				<apply>true</apply>
+			</Scale>
+		</objects>
+		<groups />
+	</ScaleSet>
+</OpenSimDocument>
