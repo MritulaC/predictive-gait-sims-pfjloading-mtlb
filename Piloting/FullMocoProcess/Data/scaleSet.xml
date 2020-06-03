@@ -8,72 +8,72 @@
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.064 1.064 0.854604</scales>
+				<scales> 1.064 0.956594 0.854604</scales>
 				<segment>pelvis</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.848793 1.01106 0.848793</scales>
+				<scales> 0.967647 1.1046 0.967647</scales>
 				<segment>femur_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.80886 0.995396 0.80886</scales>
+				<scales> 0.941558 1.03367 0.941558</scales>
 				<segment>tibia_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 1.01106 1.01106 1.01106</scales>
+				<scales> 1.1046 1.1046 1.1046</scales>
 				<segment>patella_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.80886 0.995396 0.80886</scales>
+				<scales> 0.941558 1.03367 0.941558</scales>
 				<segment>talus_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.900786 0.900786 0.798461</scales>
+				<scales> 0.938725 1.42244 0.941558</scales>
 				<segment>calcn_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.900786 0.900786 0.798461</scales>
+				<scales> 0.938725 1.42244 1.2365</scales>
 				<segment>toes_r</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.891811 0.965974 0.891811</scales>
+				<scales> 1.03074 1.06828 1.03074</scales>
 				<segment>femur_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.841926 1.06953 0.841926</scales>
+				<scales> 0.933098 1.05631 0.933098</scales>
 				<segment>tibia_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.965974 0.965974 0.965974</scales>
+				<scales> 1.06828 1.06828 1.06828</scales>
 				<segment>patella_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.841926 1.06953 0.841926</scales>
+				<scales> 0.933098 1.05631 0.933098</scales>
 				<segment>talus_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.891072 0.891072 0.719991</scales>
+				<scales> 0.954542 1.45751 0.933098</scales>
 				<segment>calcn_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.891072 0.891072 0.719991</scales>
+				<scales> 0.954542 1.45751 1.16981</scales>
 				<segment>toes_l</segment>
 				<apply>true</apply>
 			</Scale>
 			<Scale>
-				<scales> 0.924954 1.04325 1.01793</scales>
+				<scales> 0.955134 1.02726 1.01793</scales>
 				<segment>torso</segment>
 				<apply>true</apply>
 			</Scale>

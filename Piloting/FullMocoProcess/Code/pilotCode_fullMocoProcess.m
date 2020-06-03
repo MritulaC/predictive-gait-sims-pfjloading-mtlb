@@ -15,12 +15,6 @@ ModelVisualizer.addDirToGeometrySearchPaths('..\GenericModel\Geometry');
 
 %% Model scaling
 
-%%
-% TODO: more accurate scaling could be done by creating joint centre and/or
-% parallel virtual markers within current model
-
-%%
-
 %Set up a scale tool
 scaleTool = ScaleTool();
 
@@ -52,8 +46,11 @@ clear k
 
 %Set marker file
 cd('..\Data\');
-scaleTool.getMarkerPlacer().setMarkerFileName([pwd,'\static.trc']);
-scaleTool.getModelScaler().setMarkerFileName([pwd,'\static.trc']);
+%Add the virtual markers and create a new .trc file to use in scaling
+addVirtualMarkersStatic('static.trc','staticVirtualMarkers.trc');
+%Place in scale tool
+scaleTool.getMarkerPlacer().setMarkerFileName([pwd,'\staticVirtualMarkers.trc']);
+scaleTool.getModelScaler().setMarkerFileName([pwd,'\staticVirtualMarkers.trc']);
 
 %Set options
 scaleTool.getModelScaler().setPreserveMassDist(true);
@@ -154,7 +151,7 @@ scaledModel.setName('scaledModel');
 
 %Finalise connections and update scaled model
 scaledModel.finalizeConnections();
-scaledModel.print('scaledModel.osim');
+scaledModel.print('scaledModelAdjusted.osim');
 
 %Scale muscle strength based on linear function presented in Handsfield
 %et al. (2014). This uses some convenience functions that are packaged
@@ -163,10 +160,6 @@ scaledModel.print('scaledModel.osim');
 genModel = Model([genModelDir,'pfjLoading_GenericOsimModel_LaiArnold.osim']);
 scaledModelMuscle = scaleOptimalForceSubjectSpecific(genModel,scaledModel,1.700,height);
 scaledModelMuscle.print('scaledModelMuscle.osim');
-
-%% Get kinematics of static trial
-
-
 
 %% Identify the time parameters for the dynamic simulations
 
@@ -332,6 +325,9 @@ markerTrackSolution = markerTrackStudy.solve();
 %%%%% marker tracking to work better?
 
 %% Run inverse kinematics analysis
+
+%%%%%% TODO: could add virtual markers to the IK problem
+%%%%%% Better scaling does however better align feet with ground
 
 %Initialise IK tool
 ikTool = InverseKinematicsTool();
@@ -559,6 +555,8 @@ clear pp
 %%%%% Moco inverse results match those from IK exactly, signifying that the
 %%%%% actuator controls can work to match the experimental kinematics and
 %%%%% GRF data.
+
+%%%%% Different scaling does, however, change this...
 
 %% Run a states tracking simulation from the IK data
 
@@ -1204,8 +1202,8 @@ grfProblem.addGoal(contactTracking);
 grfSolver = grfStudy.initCasADiSolver();
 grfSolver.set_num_mesh_intervals(50);
 grfSolver.set_optim_max_iterations(1000);
-grfSolver.set_optim_convergence_tolerance(1e-2); %slightly reduced for hopefully some simulation brevity
-grfSolver.set_optim_constraint_tolerance(1e-2); %slightly reduced for hopefully some simulation brevity
+grfSolver.set_optim_convergence_tolerance(1e-3); %slightly reduced for hopefully some simulation brevity
+grfSolver.set_optim_constraint_tolerance(1e-3); %slightly reduced for hopefully some simulation brevity
 
 %Set the guess as the previous tracking solution
 grfSolver.setGuess(trackingSolution);
@@ -1218,36 +1216,132 @@ clc
 trackingSolution_withGRF = grfStudy.solve();
 % % % trackingSolution_withGRF.unseal(); 
 
-%%%%% Above optimisation stopped after ~920 iterations. Objective sitting
-%%%%% around 775, most coming from the contact objective but a little
-%%%%% coming from states (~20). Solution is kind of messed up in that the
-%%%%% model is completely through the floor - likely because constraint
-%%%%% violations were quite high in the end 'solution.'
+%%%%% With altered scaling parameters ensuring the spheres contact the
+%%%%% ground during IK, the GRF tracking optimisation works better but
+%%%%% still reached 1000 iterations before converging. The unscaled
+%%%%% objective function is sitting around 2.2 with the majority of this
+%%%%% coming from the contact tracking. The motion looks correct which is
+%%%%% reflected by the low states tracking cost. The problem looked liked
+%%%%% it was getting close to converging with low values for other
+%%%%% parameters too...
 
-%%%%% Need to try and figure out a way how to check the states tracked
-%%%%% solutions predicted GRF matches up with the experimental GRF to
-%%%%% determine how big of a disconnect between these two there are in the
-%%%%% first place...
+%Load in and compare kinematics between the states tracking and GRF
+%tracking simulations
 
-% % % %Create structures for force
-% % % contact_r = StdVectorString();
-% % % contact_l = StdVectorString();
-% % % contact_r.add('/forceset/contactHeel_r');
-% % % contact_r.add('/forceset/contactMH1_r');
-% % % contact_r.add('/forceset/contactMH3_r');
-% % % contact_r.add('/forceset/contactMH5_r');
-% % % contact_r.add('/forceset/contactOtherToes_r');
-% % % contact_r.add('/forceset/contactHallux_r');
-% % % contact_l.add('/forceset/contactHeel_l');
-% % % contact_l.add('/forceset/contactMH1_l');
-% % % contact_l.add('/forceset/contactMH3_l');
-% % % contact_l.add('/forceset/contactMH5_l');
-% % % contact_l.add('/forceset/contactOtherToes_l');
-% % % contact_l.add('/forceset/contactHallux_l');
-% % % 
-% % % %Get forces and write to file
-% % % externalForcesTableFlat = opensimMoco.createExternalLoadsTableForGait(trackGRFmodel,trackingSolution_withoutGRF,contact_r,contact_l);
-% % % opensimMoco.writeTableToFile(externalForcesTableFlat,'testGRF.sto');
+%Load data
+trackingData_withGRF_fromIK = importdata('gaitTracking_withGRF_fromIK_solution.sto');
+
+%Extract time
+trackingResults_withGRF_fromIK.time = trackingData_withGRF_fromIK.data(:,1);
+
+%Extract kinematic data
+for cc = 1:length(trackingData_withGRF_fromIK.colheaders)
+    currState = trackingData_withGRF_fromIK.colheaders{cc};
+    %Check for kinematic data
+    if contains(currState,'/jointset') && contains(currState,'/value')
+        %Identify joint coordinate name
+        splitStr = strsplit(currState,'/');
+        currCoord = splitStr{4};
+        %Extract data
+        trackingResults_withGRF_fromIK.kinematics.(char(currCoord)) = trackingData_withGRF_fromIK.data(:,cc);
+        %Cleanup
+        clear currCoord splitStr
+    end
+end
+clear cc
+
+%Plot
+figure; hold on
+for pp = 1:length(coordPlot)
+    subplot(5,3,pp); hold on
+    %IK result
+    plot(ikResults.time,ikResults.kinematics.(coordPlot{pp}),'k','LineWidth',1.5);
+    if contains(coordPlotName{pp},'Pelvis Translation') %don't convert from radians
+% % %         %Original tracking result
+% % %         plot(trackingResults_fromIK.time,trackingResults_fromIK.kinematics.(coordPlot{pp}),'r:','LineWidth',1.5);
+        %Tracking result with GRF
+        plot(trackingResults_withGRF_fromIK.time,trackingResults_withGRF_fromIK.kinematics.(coordPlot{pp}),'b--','LineWidth',1.5);
+    else
+% % %         %Original tracking result
+% % %         plot(trackingResults_fromIK.time,rad2deg(trackingResults_fromIK.kinematics.(coordPlot{pp})),'r:','LineWidth',1.5);
+        %Tracking result with GRF
+        plot(trackingResults_withGRF_fromIK.time,rad2deg(trackingResults_withGRF_fromIK.kinematics.(coordPlot{pp})),'b--','LineWidth',1.5);
+    end
+    %Set title
+    title(coordPlotName{pp});
+    %Set x-limits
+    ax = gca; ax.XLim = [ikResults.time(1) ikResults.time(end)]; clear ax
+end
+clear pp
+
+%%%%% From a kinematics perspective the GRF tracking simulation is pretty
+%%%%% similar to the IK results - lumbar, hip, knee and ankle motion are
+%%%%% almost identical. Pelvis X and Z translations are pretty identical -
+%%%%% the main, albeit small-ish differences are in pelvis tilt and pelvis
+%%%%% Y translation.
+
+%Extract controls data. 
+%Note that this assumes that the controls column headers are ordered the
+%same across the inverse and tracking data
+for cc = 1:length(trackingData_withGRF_fromIK.colheaders)
+    currState = trackingData_withGRF_fromIK.colheaders{cc};
+    %Check for forceset torque control data
+    if contains(currState,'/forceset')
+        %Identify joint coordinate name
+        splitStr = strsplit(currState,'/');
+        currCon = splitStr{3};
+        %Extract data
+        trackingResults_withGRF_fromIK.controls.(char(currCon)) = trackingData_withGRF_fromIK.data(:,cc);
+        %Cleanup
+        clear currCon splitStr
+    end
+end
+clear cc
+
+%Plot
+figure; hold on
+for pp = 1:length(conPlot)
+    subplot(5,3,pp); hold on
+    %Original Tracking result
+    plot(trackingResults_fromIK.time,trackingResults_fromIK.controls.(conPlot{pp}),'r:','LineWidth',1.5);
+    %Tracking result without GRF
+    plot(trackingResults_withGRF_fromIK.time,trackingResults_withGRF_fromIK.controls.(conPlot{pp}),'b--','LineWidth',1.5);
+    %Set title
+    title(conPlotName{pp});
+    %Set x-limits
+    ax = gca; ax.XLim = [ikResults.time(1) ikResults.time(end)]; clear ax
+end
+clear pp
+
+%%%%% Controls data from the GRF tracking simulation are a bit noisier,
+%%%%% particularly around the middle where GRFs are highest. The residuals
+%%%%% of the pelvis are quite high, but this may not be problematic given
+%%%%% that these are changing the pelvis kinematics?
+
+%%%%% ISSUE WITH CALCULATING GRF'S STILL PERSISTS, SO IT'S DIFFICULT TO
+%%%%% COMPARE WITH THE EXPERIMENTAL DATA!
+
+%Extract predicted GRFs and compare to experimental
+
+%Create structures for force
+contact_r = StdVectorString();
+contact_l = StdVectorString();
+contact_r.add('/forceset/contactHeel_r');
+contact_r.add('/forceset/contactMH1_r');
+contact_r.add('/forceset/contactMH3_r');
+contact_r.add('/forceset/contactMH5_r');
+contact_r.add('/forceset/contactOtherToes_r');
+contact_r.add('/forceset/contactHallux_r');
+contact_l.add('/forceset/contactHeel_l');
+contact_l.add('/forceset/contactMH1_l');
+contact_l.add('/forceset/contactMH3_l');
+contact_l.add('/forceset/contactMH5_l');
+contact_l.add('/forceset/contactOtherToes_l');
+contact_l.add('/forceset/contactHallux_l');
+
+%Get forces and write to file
+externalForcesTableFlat = opensimMoco.createExternalLoadsTableForGait(trackGRFmodel,trackingSolution_withGRF,contact_r,contact_l);
+opensimMoco.writeTableToFile(externalForcesTableFlat,'testGRF.sto');
 
 %% Test a basic states tracking solution with experimental GRFs applied
 %  but add in a frame distance constraint to keep the bodies of the foot

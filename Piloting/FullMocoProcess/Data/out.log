@@ -1,0 +1,252 @@
+Processing subject 
+
+Step 1: Loading generic model
+Loaded model pfjLoading_GenericOsimModel_LaiArnold from file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\GenericModel\pfjLoading_GenericOsimModel_LaiArnold.osim
+
+Step 2: Scaling generic model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Measurement 'torso_height'
+	pair 0 (MTOR, MPEL): model = 0.468396, experimental = 0.481165
+	overall scale factor = 1.02726
+Measurement 'torso_breadth'
+	pair 0 (C7, CLAV): model = 0.146032, experimental = 0.135073
+	pair 1 (T10, STRN): model = 0.222121, experimental = 0.218859
+	overall scale factor = 0.955134
+Measurement 'torso_width'
+	pair 0 (RACR, LACR): model = 0.283321, experimental = 0.288402
+	overall scale factor = 1.01793
+Measurement 'pelvis_w'
+	pair 0 (RASI, LASI): model = 0.25789, experimental = 0.238195
+	pair 1 (RPSI, LPSI): model = 0.092731, experimental = 0.0728474
+	overall scale factor = 0.854604
+Measurement 'pelvis_d'
+	pair 0 (RASI, RPSI): model = 0.201128, experimental = 0.205241
+	pair 1 (LASI, LPSI): model = 0.192488, experimental = 0.213192
+	overall scale factor = 1.064
+Measurement 'pelvis_h'
+	pair 0 (MPEL, RHJC): model = 0.131542, experimental = 0.122603
+	pair 1 (MPEL, LHJC): model = 0.131025, experimental = 0.128554
+	overall scale factor = 0.956594
+Measurement 'r_thigh_length'
+	pair 0 (RHJC, RKJC): model = 0.401989, experimental = 0.431339
+	overall scale factor = 1.07301
+Measurement 'r_thigh_breadth'
+	pair 0 (RLFC, RMFC): model = 0.123738, experimental = 0.105028
+	overall scale factor = 0.848793
+Measurement 'r_tibia_length'
+	pair 0 (RKJC, RAJC): model = 0.407151, experimental = 0.404813
+	overall scale factor = 0.994258
+Measurement 'r_tibia_breadth'
+	pair 0 (RLMAL, RMMAL): model = 0.10869, experimental = 0.0879151
+	overall scale factor = 0.80886
+Measurement 'r_foot_length'
+	pair 0 (fRCAL, fRAJC): model = 0.0941763, experimental = 0.0788436
+	pair 1 (fRAJC, fRMT3): model = 0.140702, experimental = 0.134715
+	overall scale factor = 0.89732
+Measurement 'r_foot_height'
+	pair 0 (RAJC, fRAJC): model = 0.0425055, experimental = 0.0991323
+	overall scale factor = 2.33222
+Measurement 'r_foot_width'
+	pair 0 (fRMT1, fRMT5): model = 0.117797, experimental = 0.0939496
+	overall scale factor = 0.797558
+Measurement 'l_thigh_length'
+	pair 0 (LHJC, LKJC): model = 0.408636, experimental = 0.417159
+	overall scale factor = 1.02086
+Measurement 'l_thigh_breadth'
+	pair 0 (LLFC, LMFC): model = 0.125448, experimental = 0.111876
+	overall scale factor = 0.891811
+Measurement 'l_tibia_length'
+	pair 0 (LKJC, LAJC): model = 0.38708, experimental = 0.413678
+	overall scale factor = 1.06872
+Measurement 'l_tibia_breadth'
+	pair 0 (LLMAL, LMMAL): model = 0.103483, experimental = 0.0871252
+	overall scale factor = 0.841926
+Measurement 'l_foot_length'
+	pair 0 (fLCAL, fLAJC): model = 0.0913944, experimental = 0.0855401
+	pair 1 (fLAJC, fLMT3): model = 0.149374, experimental = 0.13145
+	overall scale factor = 0.907975
+Measurement 'l_foot_height'
+	pair 0 (LAJC, fLAJC): model = 0.055845, experimental = 0.101492
+	overall scale factor = 1.81738
+Measurement 'l_foot_width'
+	pair 0 (fLMT1, fLMT5): model = 0.1231, experimental = 0.0888826
+	overall scale factor = 0.722039
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModel.osim from model model
+Wrote scale file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaleSet.xml for model model
+
+Step 3: Placing markers on model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Averaged frames from time 0.5 to 1.5 in E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (frames 125 to 375)
+Deleted 0 unused markers from model model
+Frame at (t=0.5):	total squared error = 0.0431343, marker error: RMS=0.0277535, max=0.0789228 (RTH1)
+Moved markers in model model to match locations in marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModelAdjusted.osim from model model
+Loaded model model from file scaledModelAdjusted.osim
+Processing subject 
+
+Step 1: Loading generic model
+Loaded model pfjLoading_GenericOsimModel_LaiArnold from file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\GenericModel\pfjLoading_GenericOsimModel_LaiArnold.osim
+
+Step 2: Scaling generic model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Measurement 'torso_height'
+	pair 0 (MTOR, MPEL): model = 0.468396, experimental = 0.481165
+	overall scale factor = 1.02726
+Measurement 'torso_breadth'
+	pair 0 (C7, CLAV): model = 0.146032, experimental = 0.135073
+	pair 1 (T10, STRN): model = 0.222121, experimental = 0.218859
+	overall scale factor = 0.955134
+Measurement 'torso_width'
+	pair 0 (RACR, LACR): model = 0.283321, experimental = 0.288402
+	overall scale factor = 1.01793
+Measurement 'pelvis_w'
+	pair 0 (RASI, LASI): model = 0.25789, experimental = 0.238195
+	pair 1 (RPSI, LPSI): model = 0.092731, experimental = 0.0728474
+	overall scale factor = 0.854604
+Measurement 'pelvis_d'
+	pair 0 (RASI, RPSI): model = 0.201128, experimental = 0.205241
+	pair 1 (LASI, LPSI): model = 0.192488, experimental = 0.213192
+	overall scale factor = 1.064
+Measurement 'pelvis_h'
+	pair 0 (MPEL, RHJC): model = 0.131542, experimental = 0.122603
+	pair 1 (MPEL, LHJC): model = 0.131025, experimental = 0.128554
+	overall scale factor = 0.956594
+Measurement 'r_thigh_length'
+	pair 0 (RHJC, RKJC): model = 0.401989, experimental = 0.431339
+	overall scale factor = 1.07301
+Measurement 'r_thigh_breadth'
+	pair 0 (RLFC, RMFC): model = 0.123738, experimental = 0.105028
+	overall scale factor = 0.848793
+Measurement 'r_tibia_length'
+	pair 0 (RKJC, RAJC): model = 0.407151, experimental = 0.404813
+	overall scale factor = 0.994258
+Measurement 'r_tibia_breadth'
+	pair 0 (RLMAL, RMMAL): model = 0.10869, experimental = 0.0879151
+	overall scale factor = 0.80886
+Measurement 'r_foot_length'
+	pair 0 (fRCAL, fRAJC): model = 0.0941763, experimental = 0.0788436
+	pair 1 (fRAJC, fRMT3): model = 0.140702, experimental = 0.134715
+	overall scale factor = 0.89732
+Measurement 'r_foot_height'
+	pair 0 (RAJC, fRAJC): model = 0.0425055, experimental = 0.0991323
+	overall scale factor = 2.33222
+Measurement 'r_foot_width'
+	pair 0 (fRMT1, fRMT5): model = 0.117797, experimental = 0.0939496
+	overall scale factor = 0.797558
+Measurement 'l_thigh_length'
+	pair 0 (LHJC, LKJC): model = 0.408636, experimental = 0.417159
+	overall scale factor = 1.02086
+Measurement 'l_thigh_breadth'
+	pair 0 (LLFC, LMFC): model = 0.125448, experimental = 0.111876
+	overall scale factor = 0.891811
+Measurement 'l_tibia_length'
+	pair 0 (LKJC, LAJC): model = 0.38708, experimental = 0.413678
+	overall scale factor = 1.06872
+Measurement 'l_tibia_breadth'
+	pair 0 (LLMAL, LMMAL): model = 0.103483, experimental = 0.0871252
+	overall scale factor = 0.841926
+Measurement 'l_foot_length'
+	pair 0 (fLCAL, fLAJC): model = 0.0913944, experimental = 0.0855401
+	pair 1 (fLAJC, fLMT3): model = 0.149374, experimental = 0.13145
+	overall scale factor = 0.907975
+Measurement 'l_foot_height'
+	pair 0 (LAJC, fLAJC): model = 0.055845, experimental = 0.101492
+	overall scale factor = 1.81738
+Measurement 'l_foot_width'
+	pair 0 (fLMT1, fLMT5): model = 0.1231, experimental = 0.0888826
+	overall scale factor = 0.722039
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModel.osim from model model
+Wrote scale file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaleSet.xml for model model
+
+Step 3: Placing markers on model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Averaged frames from time 0.5 to 1.5 in E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (frames 125 to 375)
+Deleted 0 unused markers from model model
+Frame at (t=0.5):	total squared error = 0.059575, marker error: RMS=0.0326166, max=0.0828468 (RTH1)
+Moved markers in model model to match locations in marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModelAdjusted.osim from model model
+Loaded model model from file scaledModelAdjusted.osim
+Processing subject 
+
+Step 1: Loading generic model
+Loaded model pfjLoading_GenericOsimModel_LaiArnold from file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\GenericModel\pfjLoading_GenericOsimModel_LaiArnold.osim
+
+Step 2: Scaling generic model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Measurement 'torso_height'
+	pair 0 (MTOR, MPEL): model = 0.468396, experimental = 0.481165
+	overall scale factor = 1.02726
+Measurement 'torso_breadth'
+	pair 0 (C7, CLAV): model = 0.146032, experimental = 0.135073
+	pair 1 (T10, STRN): model = 0.222121, experimental = 0.218859
+	overall scale factor = 0.955134
+Measurement 'torso_width'
+	pair 0 (RACR, LACR): model = 0.283321, experimental = 0.288402
+	overall scale factor = 1.01793
+Measurement 'pelvis_w'
+	pair 0 (RASI, LASI): model = 0.25789, experimental = 0.238195
+	pair 1 (RPSI, LPSI): model = 0.092731, experimental = 0.0728474
+	overall scale factor = 0.854604
+Measurement 'pelvis_d'
+	pair 0 (RASI, RPSI): model = 0.201128, experimental = 0.205241
+	pair 1 (LASI, LPSI): model = 0.192488, experimental = 0.213192
+	overall scale factor = 1.064
+Measurement 'pelvis_h'
+	pair 0 (MPEL, RHJC): model = 0.131542, experimental = 0.122603
+	pair 1 (MPEL, LHJC): model = 0.131025, experimental = 0.128554
+	overall scale factor = 0.956594
+Measurement 'r_thigh_length'
+	pair 0 (RHJC, RKJC): model = 0.401989, experimental = 0.431339
+	overall scale factor = 1.07301
+Measurement 'r_thigh_breadth'
+	pair 0 (RLFC, RMFC): model = 0.123738, experimental = 0.105028
+	overall scale factor = 0.848793
+Measurement 'r_tibia_length'
+	pair 0 (RKJC, RAJC): model = 0.407151, experimental = 0.404813
+	overall scale factor = 0.994258
+Measurement 'r_tibia_breadth'
+	pair 0 (RLMAL, RMMAL): model = 0.10869, experimental = 0.0879151
+	overall scale factor = 0.80886
+Measurement 'r_foot_length'
+	pair 0 (fRCAL, fRAJC): model = 0.0941763, experimental = 0.0788436
+	pair 1 (fRAJC, fRMT3): model = 0.140702, experimental = 0.134715
+	overall scale factor = 0.89732
+Measurement 'r_foot_height'
+	pair 0 (RAJC, fRAJC): model = 0.0425055, experimental = 0.0991323
+	overall scale factor = 2.33222
+Measurement 'r_foot_width'
+	pair 0 (fRMT1, fRMT5): model = 0.117797, experimental = 0.0939496
+	overall scale factor = 0.797558
+Measurement 'l_thigh_length'
+	pair 0 (LHJC, LKJC): model = 0.408636, experimental = 0.417159
+	overall scale factor = 1.02086
+Measurement 'l_thigh_breadth'
+	pair 0 (LLFC, LMFC): model = 0.125448, experimental = 0.111876
+	overall scale factor = 0.891811
+Measurement 'l_tibia_length'
+	pair 0 (LKJC, LAJC): model = 0.38708, experimental = 0.413678
+	overall scale factor = 1.06872
+Measurement 'l_tibia_breadth'
+	pair 0 (LLMAL, LMMAL): model = 0.103483, experimental = 0.0871252
+	overall scale factor = 0.841926
+Measurement 'l_foot_length'
+	pair 0 (fLCAL, fLAJC): model = 0.0913944, experimental = 0.0855401
+	pair 1 (fLAJC, fLMT3): model = 0.149374, experimental = 0.13145
+	overall scale factor = 0.907975
+Measurement 'l_foot_height'
+	pair 0 (LAJC, fLAJC): model = 0.055845, experimental = 0.101492
+	overall scale factor = 1.81738
+Measurement 'l_foot_width'
+	pair 0 (fLMT1, fLMT5): model = 0.1231, experimental = 0.0888826
+	overall scale factor = 0.722039
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModel.osim from model model
+Wrote scale file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaleSet.xml for model model
+
+Step 3: Placing markers on model
+Loaded marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (58 markers, 423 frames)
+Averaged frames from time 0.5 to 1.5 in E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc (frames 125 to 375)
+Deleted 0 unused markers from model model
+Frame at (t=0.5):	total squared error = 0.0906574, marker error: RMS=0.0402353, max=0.101244 (RTH1)
+Moved markers in model model to match locations in marker file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\staticVirtualMarkers.trc
+Wrote model file E:\+GitRepos+\predictive-gait-sims-pfjloading-mtlb\Piloting\FullMocoProcess\Data\scaledModelAdjusted.osim from model model
+Loaded model model from file scaledModelAdjusted.osim
