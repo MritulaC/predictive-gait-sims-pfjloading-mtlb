@@ -1,0 +1,17 @@
+Warning: intermediate_callback is disfunctional in your installation. You will only be able to use stats(). See https://github.com/casadi/casadi/wiki/enableIpoptCallback to enable it.
+Warning: intermediate_callback is disfunctional in your installation. You will only be able to use stats(). See https://github.com/casadi/casadi/wiki/enableIpoptCallback to enable it.
+Warning: intermediate_callback is disfunctional in your installation. You will only be able to use stats(). See https://github.com/casadi/casadi/wiki/enableIpoptCallback to enable it.
+intermediate_callback: Error in Function::operator() for 'NlpsolCallback' [CallbackInternal] at D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\function.cpp:1319:
+D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\function_internal.cpp:3119: Failed to evaluate 'eval_dm' for NlpsolCallback:
+D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\callback_internal.cpp:104: Error calling "eval" for object NlpsolCallback:
+File 'delete_this_to_stop_optimization__2020-06-19T093809.141245.txt' deleted.
+	Thrown at MocoUtilities.h:814 in throwIfDeleted().
+Warning: intermediate_callback is disfunctional in your installation. You will only be able to use stats(). See https://github.com/casadi/casadi/wiki/enableIpoptCallback to enable it.
+CasADi - 2020-06-19 14:24:32 WARNING("nlp:nlp_jac_g failed: NaN detected for output jac_g_x, at nonzero index 135 (row 215, col 0).") [D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\oracle_function.cpp:265]
+CasADi - 2020-06-19 14:24:48 WARNING("nlp:nlp_jac_g failed: NaN detected for output jac_g_x, at nonzero index 135 (row 215, col 0).") [D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\oracle_function.cpp:265]
+Warning: intermediate_callback is disfunctional in your installation. You will only be able to use stats(). See https://github.com/casadi/casadi/wiki/enableIpoptCallback to enable it.
+intermediate_callback: Error in Function::operator() for 'NlpsolCallback' [CallbackInternal] at D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\function.cpp:1319:
+D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\function_internal.cpp:3119: Failed to evaluate 'eval_dm' for NlpsolCallback:
+D:\a\opensim-moco\opensim-moco\dependencies\casadi\casadi\core\callback_internal.cpp:104: Error calling "eval" for object NlpsolCallback:
+File 'delete_this_to_stop_optimization__2020-06-19T142540.016294.txt' deleted.
+	Thrown at MocoUtilities.h:814 in throwIfDeleted().

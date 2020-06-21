@@ -50,8 +50,6 @@ function addVirtualMarkersStatic(staticTRC,outputTRC)
     %Import opensim libraries
     import org.opensim.modeling.*
     
-    staticTRC = 'static.trc';
-
     %% Load in the trc file
     
     % Use the Vec3 TimeSeriesTable to read the Vec3 type data file.

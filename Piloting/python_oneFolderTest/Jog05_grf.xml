@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="20302">
+   <ExternalLoads name="DTJog05">
+      <objects>
+         <ExternalForce name="calcn_r">
+            <isDisabled>false</isDisabled>
+            <applied_to_body>calcn_r</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>calcn_r_ground_force_v</force_identifier>
+            <point_identifier>calcn_r_ground_force_p</point_identifier>
+            <torque_identifier>calcn_r_ground_torque_</torque_identifier>
+            <data_source_name>Unassigned</data_source_name>
+         </ExternalForce>
+         <ExternalForce name="calcn_l">
+            <isDisabled>false</isDisabled>
+            <applied_to_body>calcn_l</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>calcn_l_ground_force_v</force_identifier>
+            <point_identifier>calcn_l_ground_force_p</point_identifier>
+            <torque_identifier>calcn_l_ground_torque_</torque_identifier>
+            <data_source_name>Unassigned</data_source_name>
+         </ExternalForce>
+      </objects>
+      <datafile>Jog05_grf.mot</datafile>
+      <external_loads_model_kinematics_file></external_loads_model_kinematics_file>
+      <lowpass_cutoff_frequency_for_load_kinematics>10</lowpass_cutoff_frequency_for_load_kinematics>
+   </ExternalLoads>
+</OpenSimDocument>
